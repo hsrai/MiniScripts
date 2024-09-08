@@ -1,0 +1,1889 @@
+Script started on 2024-09-08 14:02:02+05:30 [COMMAND="	 bash --rcfile <(     echo '. ~/.bashrc;      PROMPT_COMMAND+="echo $(date +%Y-%m-%d\ %H:%M:%S) \# $(history 1)"'   ) " TERM="tmux-256color" TTY="/dev/pts/3" COLUMNS="80" LINES="12"]
+2024-09-08 14:02:03 #
+frappe@cc:~/Trust$ rclone configurefrappe@cc:~/Trust$ rclone configure
+Error: unknown command "configure" for "rclone"
+Run 'rclone --help' for usage.
+You could use 'rclone selfupdate' to get latest features.
+
+2024/09/08 14:02:33 Fatal error: unknown command "configure" for "rclone"
+2024-09-08 14:02:03 #
+frappe@cc:~/Trust$ rclone configure
+2024/09/08 14:02:38 NOTICE: Config file "/home/frappe/.config/rclone/rclone.conf" not found - using defaults
+No remotes found, make a new one?
+n) New remote
+s) Set configuration password
+q) Quit config
+n/s/q> n
+
+Enter name for new remote.
+name> GDAutoLiveReport
+
+Option Storage.
+Type of storage to configure.
+Choose a number from below, or type in your own value.
+ 1 / 1Fichier
+   \ (fichier)
+ 2 / Akamai NetStorage
+   \ (netstorage)
+ 3 / Alias for an existing remote
+   \ (alias)
+ 4 / Amazon Drive
+   \ (amazon cloud drive)
+ 5 / Amazon S3 Compliant Storage Providers including AWS, Alibaba, Ceph, China Mobile, Cloudflare, ArvanCloud, Digital Ocean, Dreamhost, Huawei OBS, IBM COS, IDrive e2, IONOS Cloud, Lyve Cloud, Minio, Netease, RackCorp, Scaleway, SeaweedFS, StackPath, Storj, Tencent COS, Qiniu and Wasabi
+   \ (s3)
+ 6 / Backblaze B2
+   \ (b2)
+ 7 / Better checksums for other remotes
+   \ (hasher)
+ 8 / Box
+   \ (box)
+ 9 / Cache a remote
+   \ (cache)
+10 / Citrix Sharefile
+   \ (sharefile)
+11 / Combine several remotes into one
+   \ (combine)
+12 / Compress a remote
+   \ (compress)
+13 / Dropbox
+   \ (dropbox)
+14 / Encrypt/Decrypt a remote
+   \ (crypt)
+15 / Enterprise File Fabric
+   \ (filefabric)
+16 / FTP
+   \ (ftp)
+17 / Google Cloud Storage (this is not Google Drive)
+   \ (google cloud storage)
+18 / Google Drive
+   \ (drive)
+19 / Google Photos
+   \ (google photos)
+20 / HTTP
+   \ (http)
+21 / Hadoop distributed file system
+   \ (hdfs)
+22 / HiDrive
+   \ (hidrive)
+23 / In memory object storage system.
+   \ (memory)
+24 / Internet Archive
+   \ (internetarchive)
+25 / Jottacloud
+   \ (jottacloud)
+26 / Koofr, Digi Storage and other Koofr-compatible storage providers
+   \ (koofr)
+27 / Local Disk
+   \ (local)
+28 / Mail.ru Cloud
+   \ (mailru)
+29 / Microsoft Azure Blob Storage
+   \ (azureblob)
+30 / Microsoft OneDrive
+   \ (onedrive)
+31 / OpenDrive
+   \ (opendrive)
+32 / OpenStack Swift (Rackspace Cloud Files, Memset Memstore, OVH)
+   \ (swift)
+33 / Pcloud
+   \ (pcloud)
+34 / Put.io
+   \ (putio)
+35 / SMB / CIFS
+   \ (smb)
+36 / SSH/SFTP
+   \ (sftp)
+37 / Sia Decentralized Cloud
+   \ (sia)
+38 / Sugarsync
+   \ (sugarsync)
+39 / Transparently chunk/split large files
+   \ (chunker)
+40 / Union merges the contents of several upstream fs
+   \ (union)
+41 / Uptobox
+   \ (uptobox)
+42 / WebDAV
+   \ (webdav)
+43 / Yandex Disk
+   \ (yandex)
+44 / Zoho
+   \ (zoho)
+45 / premiumize.me
+   \ (premiumizeme)
+46 / seafile
+   \ (seafile)
+Storage> 13
+
+Option client_id.
+OAuth Client Id.
+Leave blank normally.
+Enter a value. Press Enter to leave empty.
+client_id>
+
+Option client_secret.
+OAuth Client Secret.
+Leave blank normally.
+Enter a value. Press Enter to leave empty.
+client_secret>
+
+Edit advanced config?
+y) Yes
+n) No (default)
+y/n>
+
+Use auto config?
+ * Say Y if not sure
+ * Say N if you are working on a remote or headless machine
+
+y) Yes (default)
+n) No
+y/n>
+
+2024/09/08 14:04:17 NOTICE: If your browser doesn't open automatically go to the following link: http://127.0.0.1:53682/auth?state=iv6PMMWfSjVuBJjr6-0P2A
+2024/09/08 14:04:17 NOTICE: Log in and authorize rclone for access
+2024/09/08 14:04:17 NOTICE: Waiting for code...
+^C
+2024-09-08 14:02:03 #
+frappe@cc:~/Trust$ rclone config
+2024/09/08 14:07:15 NOTICE: Config file "/home/frappe/.config/rclone/rclone.conf" not found - using defaults
+No remotes found, make a new one?
+n) New remote
+s) Set configuration password
+q) Quit config
+n/s/q> n
+
+Enter name for new remote.
+name> GDAutoLiveReport
+
+Option Storage.
+Type of storage to configure.
+Choose a number from below, or type in your own value.
+ 1 / 1Fichier
+   \ (fichier)
+ 2 / Akamai NetStorage
+   \ (netstorage)
+ 3 / Alias for an existing remote
+   \ (alias)
+ 4 / Amazon Drive
+   \ (amazon cloud drive)
+ 5 / Amazon S3 Compliant Storage Providers including AWS, Alibaba, Ceph, China Mobile, Cloudflare, ArvanCloud, Digital Ocean, Dreamhost, Huawei OBS, IBM COS, IDrive e2, IONOS Cloud, Lyve Cloud, Minio, Netease, RackCorp, Scaleway, SeaweedFS, StackPath, Storj, Tencent COS, Qiniu and Wasabi
+   \ (s3)
+ 6 / Backblaze B2
+   \ (b2)
+ 7 / Better checksums for other remotes
+   \ (hasher)
+ 8 / Box
+   \ (box)
+ 9 / Cache a remote
+   \ (cache)
+10 / Citrix Sharefile
+   \ (sharefile)
+11 / Combine several remotes into one
+   \ (combine)
+12 / Compress a remote
+   \ (compress)
+13 / Dropbox
+   \ (dropbox)
+14 / Encrypt/Decrypt a remote
+   \ (crypt)
+15 / Enterprise File Fabric
+   \ (filefabric)
+16 / FTP
+   \ (ftp)
+17 / Google Cloud Storage (this is not Google Drive)
+   \ (google cloud storage)
+18 / Google Drive
+   \ (drive)
+19 / Google Photos
+   \ (google photos)
+20 / HTTP
+   \ (http)
+21 / Hadoop distributed file system
+   \ (hdfs)
+22 / HiDrive
+   \ (hidrive)
+23 / In memory object storage system.
+   \ (memory)
+24 / Internet Archive
+   \ (internetarchive)
+25 / Jottacloud
+   \ (jottacloud)
+26 / Koofr, Digi Storage and other Koofr-compatible storage providers
+   \ (koofr)
+27 / Local Disk
+   \ (local)
+28 / Mail.ru Cloud
+   \ (mailru)
+29 / Microsoft Azure Blob Storage
+   \ (azureblob)
+30 / Microsoft OneDrive
+   \ (onedrive)
+31 / OpenDrive
+   \ (opendrive)
+32 / OpenStack Swift (Rackspace Cloud Files, Memset Memstore, OVH)
+   \ (swift)
+33 / Pcloud
+   \ (pcloud)
+34 / Put.io
+   \ (putio)
+35 / SMB / CIFS
+   \ (smb)
+36 / SSH/SFTP
+   \ (sftp)
+37 / Sia Decentralized Cloud
+   \ (sia)
+38 / Sugarsync
+   \ (sugarsync)
+39 / Transparently chunk/split large files
+   \ (chunker)
+40 / Union merges the contents of several upstream fs
+   \ (union)
+41 / Uptobox
+   \ (uptobox)
+42 / WebDAV
+   \ (webdav)
+43 / Yandex Disk
+   \ (yandex)
+44 / Zoho
+   \ (zoho)
+45 / premiumize.me
+   \ (premiumizeme)
+46 / seafile
+   \ (seafile)
+Storage> 13
+
+Option client_id.
+OAuth Client Id.
+Leave blank normally.
+Enter a value. Press Enter to leave empty.
+client_id>
+
+Option client_secret.
+OAuth Client Secret.
+Leave blank normally.
+Enter a value. Press Enter to leave empty.
+client_secret>
+
+Edit advanced config?
+y) Yes
+n) No (default)
+y/n>
+
+Use auto config?
+ * Say Y if not sure
+ * Say N if you are working on a remote or headless machine
+
+y) Yes (default)
+n) No
+y/n> n
+
+Option config_token.
+For this to work, you will need rclone available on a machine that has
+a web browser available.
+For more help and alternate methods see: https://rclone.org/remote_setup/
+Execute the following on the machine with the web browser (same rclone
+version recommended):
+	rclone authorize "dropbox"
+Then paste the result.
+Enter a value.
+config_token> http://127.0.0.1:53682/?state=dhGWRj9eqyJTdkriifmHow&code=4/0AQlEd8xQyJLweHDUDszEiZf_ihxxLX05OTy5bzpgKXWz7Aijx6kBHdCudUuRgMcgPQdqAg&scope=https://www.googleapis.com/auth/drive
+
+Couldn't decode response - try again (make sure you are using a matching version of rclone on both sides: invalid character 'h' looking for beginning of value
+
+Configuration complete.
+Options:
+- type: dropbox
+Keep this "GDAutoLiveReport" remote?
+y) Yes this is OK (default)
+e) Edit this remote
+d) Delete this remote
+y/e/d> y
+
+Current remotes:
+
+Name		     Type
+====		     ====
+GDAutoLiveReport     dropbox
+
+e) Edit existing remote
+n) New remote
+d) Delete remote
+r) Rename remote
+c) Copy remote
+s) Set configuration password
+q) Quit config
+e/n/d/r/c/s/q> q
+2024-09-08 14:02:03 #
+frappe@cc:~/Trust$ cat ~/.config/rclone/rclone.conf
+[GDAutoLiveReport]
+type = dropbox
+
+2024-09-08 14:02:03 #
+frappe@cc:~/Trust$ ls -trl.~/.config/
+total 8
+drwxr-x--x 2 frappe frappe 4096 Aug 17 04:45 gh
+drwxr-xr-x 2 frappe frappe 4096 Sep  8 14:14 rclone
+2024-09-08 14:02:03 #
+frappe@cc:~/Trust$ ls -trl ~/.config/rclone/rclone.conf
+-rw------- 1 frappe frappe 35 Sep  8 14:14 /home/frappe/.config/rclone/rclone.conf
+2024-09-08 14:02:03 #
+frappe@cc:~/Trust$ rm -rf ~/.config/rclone/
+2024-09-08 14:02:03 #
+frappe@cc:~/Trust$ frappe@cc:~/Trust$ Hfrappe@cc:~/Trust$ (reverse-i-search)`n': rm -rf ~/.config/rcloCCCCCCCCCCCCCCCCCCCCe': rm -rf ~/.config/rcloCCCCCCCCCCCCCCCCCCCCC9P co':rrclo8Pfrappe@cc:~/Trust$ rclone config
+2024/09/08 14:29:19 NOTICE: Config file "/home/frappe/.config/rclone/rclone.conf" not found - using defaults
+No remotes found, make a new one?
+n) New remote
+s) Set configuration password
+q) Quit config
+n/s/q> n
+
+Enter name for new remote.
+name> GDAutoLiveReport
+
+Option Storage.
+Type of storage to configure.
+Choose a number from below, or type in your own value.
+ 1 / 1Fichier
+   \ (fichier)
+ 2 / Akamai NetStorage
+   \ (netstorage)
+ 3 / Alias for an existing remote
+   \ (alias)
+ 4 / Amazon Drive
+   \ (amazon cloud drive)
+ 5 / Amazon S3 Compliant Storage Providers including AWS, Alibaba, Ceph, China Mobile, Cloudflare, ArvanCloud, Digital Ocean, Dreamhost, Huawei OBS, IBM COS, IDrive e2, IONOS Cloud, Lyve Cloud, Minio, Netease, RackCorp, Scaleway, SeaweedFS, StackPath, Storj, Tencent COS, Qiniu and Wasabi
+   \ (s3)
+ 6 / Backblaze B2
+   \ (b2)
+ 7 / Better checksums for other remotes
+   \ (hasher)
+ 8 / Box
+   \ (box)
+ 9 / Cache a remote
+   \ (cache)
+10 / Citrix Sharefile
+   \ (sharefile)
+11 / Combine several remotes into one
+   \ (combine)
+12 / Compress a remote
+   \ (compress)
+13 / Dropbox
+   \ (dropbox)
+14 / Encrypt/Decrypt a remote
+   \ (crypt)
+15 / Enterprise File Fabric
+   \ (filefabric)
+16 / FTP
+   \ (ftp)
+17 / Google Cloud Storage (this is not Google Drive)
+   \ (google cloud storage)
+18 / Google Drive
+   \ (drive)
+19 / Google Photos
+   \ (google photos)
+20 / HTTP
+   \ (http)
+21 / Hadoop distributed file system
+   \ (hdfs)
+22 / HiDrive
+   \ (hidrive)
+23 / In memory object storage system.
+   \ (memory)
+24 / Internet Archive
+   \ (internetarchive)
+25 / Jottacloud
+   \ (jottacloud)
+26 / Koofr, Digi Storage and other Koofr-compatible storage providers
+   \ (koofr)
+27 / Local Disk
+   \ (local)
+28 / Mail.ru Cloud
+   \ (mailru)
+29 / Microsoft Azure Blob Storage
+   \ (azureblob)
+30 / Microsoft OneDrive
+   \ (onedrive)
+31 / OpenDrive
+   \ (opendrive)
+32 / OpenStack Swift (Rackspace Cloud Files, Memset Memstore, OVH)
+   \ (swift)
+33 / Pcloud
+   \ (pcloud)
+34 / Put.io
+   \ (putio)
+35 / SMB / CIFS
+   \ (smb)
+36 / SSH/SFTP
+   \ (sftp)
+37 / Sia Decentralized Cloud
+   \ (sia)
+38 / Sugarsync
+   \ (sugarsync)
+39 / Transparently chunk/split large files
+   \ (chunker)
+40 / Union merges the contents of several upstream fs
+   \ (union)
+41 / Uptobox
+   \ (uptobox)
+42 / WebDAV
+   \ (webdav)
+43 / Yandex Disk
+   \ (yandex)
+44 / Zoho
+   \ (zoho)
+45 / premiumize.me
+   \ (premiumizeme)
+46 / seafile
+   \ (seafile)
+Storage> 18
+
+Option client_id.
+Google Application Client Id
+Setting your own is recommended.
+See https://rclone.org/drive/#making-your-own-client-id for how to create your own.
+If you leave this blank, it will use an internal key which is low performance.
+Enter a value. Press Enter to leave empty.
+client_id>
+
+Option client_secret.
+OAuth Client Secret.
+Leave blank normally.
+Enter a value. Press Enter to leave empty.
+client_secret>
+
+Option scope.
+Scope that rclone should use when requesting access from drive.
+Choose a number from below, or type in your own value.
+Press Enter to leave empty.
+ 1 / Full access all files, excluding Application Data Folder.
+   \ (drive)
+ 2 / Read-only access to file metadata and file contents.
+   \ (drive.readonly)
+   / Access to files created by rclone only.
+ 3 | These are visible in the drive website.
+   | File authorization is revoked when the user deauthorizes the app.
+   \ (drive.file)
+   / Allows read and write access to the Application Data folder.
+ 4 | This is not visible in the drive website.
+   \ (drive.appfolder)
+   / Allows read-only access to file metadata but
+ 5 | does not allow any access to read or download file content.
+   \ (drive.metadata.readonly)
+scope> 1
+
+Option service_account_file.
+Service Account Credentials JSON file path.
+Leave blank normally.
+Needed only if you want use SA instead of interactive login.
+Leading `~` will be expanded in the file name as will environment variables such as `${RCLONE_CONFIG_DIR}`.
+Enter a value. Press Enter to leave empty.
+service_account_file>
+
+Edit advanced config?
+y) Yes
+n) No (default)
+y/n>
+
+Use auto config?
+ * Say Y if not sure
+ * Say N if you are working on a remote or headless machine
+
+y) Yes (default)
+n) No
+y/n> n
+
+Option config_token.
+For this to work, you will need rclone available on a machine that has
+a web browser available.
+For more help and alternate methods see: https://rclone.org/remote_setup/
+Execute the following on the machine with the web browser (same rclone
+version recommended):
+	rclone authorize "drive" "eyJzY29wZSI6ImRyaXZlIn0"
+Then paste the result.
+Enter a value.
+config_token> {"access_token":"ya29.a0AcM612ypQAMqeX3vYphocY5x6xnNKJcbbcp7VV1RN4JjzZqNvofjIa_BbXuYM61SiSpjpfw7S6j6EmrKA5xvetjYFEqUX7uaxOAFS7bXEnKHVrrlJXPg-eEdr3oMW6Avtts4z9ZHZyWtLUYG9Ed3Strvqrk3oW-7sKa9PI_ZaCgYKAaoSARASFQHGX2Mi4beaGd-d0N6AAXR5nL9RiA0175","token_type":"Bearer","refresh_token":"1//0gRBRTRq76lf_CgYIARAAGBASNwF-L9IraXPn1uF7CZn52qpdFjFKY4c1xI_3DMNqNJ2HmaXgbYQKYp_7xS6Dnlqnns7NYlH2KGs","expiry":"2024-09-08T15:33:30.559034304+05:30"}
+
+Configure this as a Shared Drive (Team Drive)?
+
+y) Yes
+n) No (default)
+y/n>
+
+Configuration complete.
+Options:
+- type: drive
+- scope: drive
+- token: {"access_token":"ya29.a0AcM612ypQAMqeX3vYphocY5x6xnNKJcbbcp7VV1RN4JjzZqNvofjIa_BbXuYM61SiSpjpfw7S6j6EmrKA5xvetjYFEqUX7uaxOAFS7bXEnKHVrrlJXPg-eEdr3oMW6Avtts4z9ZHZyWtLUYG9Ed3Strvqrk3oW-7sKa9PI_ZaCgYKAaoSARASFQHGX2Mi4beaGd-d0N6AAXR5nL9RiA0175","token_type":"Bearer","refresh_token":"1//0gRBRTRq76lf_CgYIARAAGBASNwF-L9IraXPn1uF7CZn52qpdFjFKY4c1xI_3DMNqNJ2HmaXgbYQKYp_7xS6Dnlqnns7NYlH2KGs","expiry":"2024-09-08T15:33:30.559034304+05:30"}
+- team_drive:
+Keep this "GDAutoLiveReport" remote?
+y) Yes this is OK (default)
+e) Edit this remote
+d) Delete this remote
+y/e/d>
+
+Current remotes:
+
+Name		     Type
+====		     ====
+GDAutoLiveReport     drive
+
+e) Edit existing remote
+n) New remote
+d) Delete remote
+r) Rename remote
+c) Copy remote
+s) Set configuration password
+q) Quit config
+e/n/d/r/c/s/q> q
+2024-09-08 14:02:03 #
+frappe@cc:~/Trust$ frappe@cc:~/Trust$
+exit
+
+Script done on 2024-09-08 14:35:45+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2024-09-08 15:24:50+05:30 [COMMAND="	 bash --rcfile <(     echo '. ~/.bashrc;      PROMPT_COMMAND+="echo $(date +%Y-%m-%d\ %H:%M:%S) \# $(history 1)"'   ) " TERM="tmux-256color" TTY="/dev/pts/3" COLUMNS="90" LINES="23"]
+2024-09-08 15:24:51 #
+frappe@cc:~/Trust$ ls
+abc.txt	  Backup		 log_with_timestamp.sh~	 test.md
+abc.txt~  log_with_timestamp.sh	 MyLog.txt
+2024-09-08 15:24:51 #
+frappe@cc:~/Trust$
+exit
+
+Script done on 2024-09-08 15:24:57+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2024-09-08 15:25:20+05:30 [COMMAND="	 bash --rcfile <(     echo '. ~/.bashrc;      PROMPT_COMMAND+="echo $(date +%Y-%m-%d\ %H:%M:%S) \# $(history 1)"'   ) " TERM="tmux-256color" TTY="/dev/pts/3" COLUMNS="90" LINES="23"]
+2024-09-08 15:25:21 #
+frappe@cc:~/Trust$ ls
+abc.txt	  Backup		 log_with_timestamp.sh~	 test.md
+abc.txt~  log_with_timestamp.sh	 MyLog.txt
+2024-09-08 15:25:21 #
+frappe@cc:~/Trust$ ls Backup/frappe-bench.conf
+Backup/frappe-bench.conf
+2024-09-08 15:25:21 #
+frappe@cc:~/Trust$ cd ~/frappe-bench/
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ bench new-site arce.ukiericoncretecongress.com
+MySQL root password:
+Warning: MariaDB version ['10.11', '6'] is more than 10.8 which is not yet tested with Frappe Framework.
+
+Installing frappe...
+Updating DocTypes for frappe	    : [					       ] 0%Updating DocTypes for frappe	       : [					  ] 0%Updating DocTypes for frappe	  : [					     ] 0%Updating DocTypes for frappe	     : [					] 1%Updating DocTypes for frappe	: [					   ] 1%Updating DocTypes for frappe	   : [					      ] 1%Updating DocTypes for frappe	      : [					 ] 2%Updating DocTypes for frappe	 : [					    ] 2%Updating DocTypes for frappe	    : [=				       ] 2%Updating DocTypes for frappe	       : [=					  ] 2%Updating DocTypes for frappe	  : [=					     ] 3%Updating DocTypes for frappe	     : [=					] 3%Updating DocTypes for frappe	: [=					   ] 3%Updating DocTypes for frappe	   : [=					      ] 4%Updating DocTypes for frappe	      : [=					 ] 4%Updating DocTypes for frappe	 : [=					    ] 4%Updating DocTypes for frappe	    : [==				       ] 5%Updating DocTypes for frappe	       : [==					  ] 5%Updating DocTypes for frappe	  : [==					     ] 5%Updating DocTypes for frappe	     : [==					] 5%Updating DocTypes for frappe	: [==					   ] 6%Updating DocTypes for frappe	   : [==				      ] 6%Updating DocTypes for frappe	      : [==					 ] 6%Updating DocTypes for frappe	 : [==					    ] 7%Updating DocTypes for frappe	    : [==				       ] 7%Updating DocTypes for frappe	       : [===					  ] 7%Updating DocTypes for frappe	  : [===				     ] 8%Updating DocTypes for frappe	     : [===					] 8%Updating DocTypes for frappe	: [===					   ] 8%Updating DocTypes for frappe	   : [===				      ] 8%Updating DocTypes for frappe	      : [===					 ] 9%Updating DocTypes for frappe	 : [===					    ] 9%Updating DocTypes for frappe	    : [===				       ] 9%Updating DocTypes for frappe	       : [====					  ] 10%Updating DocTypes for frappe	   : [====				      ] 10%Updating DocTypes for frappe	       : [====					  ] 10%Updating DocTypes for frappe	   : [====				      ] 11%Updating DocTypes for frappe	       : [====					  ] 11%Updating DocTypes for frappe	   : [====				      ] 11%Updating DocTypes for frappe	       : [====					  ] 11%Updating DocTypes for frappe	   : [====				      ] 12%Updating DocTypes for frappe	       : [=====					  ] 12%Updating DocTypes for frappe	   : [=====				      ] 12%Updating DocTypes for frappe	       : [=====					  ] 13%Updating DocTypes for frappe	   : [=====				      ] 13%Updating DocTypes for frappe	       : [=====					  ] 13%Updating DocTypes for frappe	   : [=====				      ] 14%Updating DocTypes for frappe	       : [=====					  ] 14%Updating DocTypes for frappe	   : [=====				      ] 14%Updating DocTypes for frappe	       : [=====					  ] 14%Updating DocTypes for frappe	   : [======				      ] 15%Updating DocTypes for frappe	       : [======				  ] 15%Updating DocTypes for frappe	   : [======				      ] 15%Updating DocTypes for frappe	       : [======				  ] 16%Updating DocTypes for frappe	   : [======				      ] 16%Updating DocTypes for frappe	       : [======				  ] 16%Updating DocTypes for frappe	   : [======				      ] 17%Updating DocTypes for frappe	       : [======				  ] 17%Updating DocTypes for frappe	   : [=======				      ] 17%Updating DocTypes for frappe	       : [=======				  ] 17%Updating DocTypes for frappe	   : [=======				      ] 18%Updating DocTypes for frappe	       : [=======				  ] 18%Updating DocTypes for frappe	   : [=======				      ] 18%Updating DocTypes for frappe	       : [=======				  ] 19%Updating DocTypes for frappe	   : [=======				      ] 19%Updating DocTypes for frappe	       : [=======				  ] 19%Updating DocTypes for frappe	   : [========				      ] 20%Updating DocTypes for frappe	       : [========				  ] 20%Updating DocTypes for frappe	   : [========				      ] 20%Updating DocTypes for frappe	       : [========				  ] 20%Updating DocTypes for frappe	   : [========				      ] 21%Updating DocTypes for frappe	       : [========				  ] 21%Updating DocTypes for frappe	   : [========				      ] 21%Updating DocTypes for frappe	       : [========				  ] 22%Updating DocTypes for frappe	   : [========				      ] 22%Updating DocTypes for frappe	       : [=========				  ] 22%Updating DocTypes for frappe	   : [=========				      ] 22%Updating DocTypes for frappe	       : [=========				  ] 23%Updating DocTypes for frappe	   : [=========				      ] 23%Updating DocTypes for frappe	       : [=========				  ] 23%Updating DocTypes for frappe	   : [=========				      ] 24%Updating DocTypes for frappe	       : [=========				  ] 24%Updating DocTypes for frappe	   : [=========				      ] 24%Updating DocTypes for frappe	       : [==========				  ] 25%Updating DocTypes for frappe	   : [==========			      ] 25%Updating DocTypes for frappe	       : [==========				  ] 25%Updating DocTypes for frappe	   : [==========			      ] 25%Updating DocTypes for frappe	       : [==========				  ] 26%Updating DocTypes for frappe	   : [==========			      ] 26%Updating DocTypes for frappe	       : [==========				  ] 26%Updating DocTypes for frappe	   : [==========			      ] 27%Updating DocTypes for frappe	       : [==========				  ] 27%Updating DocTypes for frappe	   : [===========			      ] 27%Updating DocTypes for frappe	       : [===========				  ] 28%Updating DocTypes for frappe	   : [===========			      ] 28%Updating DocTypes for frappe	       : [===========				  ] 28%Updating DocTypes for frappe	   : [===========			      ] 28%Updating DocTypes for frappe	       : [===========				  ] 29%Updating DocTypes for frappe	   : [===========			      ] 29%Updating DocTypes for frappe	       : [===========				  ] 29%Updating DocTypes for frappe	   : [============			      ] 30%Updating DocTypes for frappe	       : [============				  ] 30%Updating DocTypes for frappe	   : [============			      ] 30%Updating DocTypes for frappe	       : [============				  ] 31%Updating DocTypes for frappe	   : [============			      ] 31%Updating DocTypes for frappe	       : [============				  ] 31%Updating DocTypes for frappe	   : [============			      ] 31%Updating DocTypes for frappe	       : [============				  ] 32%Updating DocTypes for frappe	   : [=============			      ] 32%Updating DocTypes for frappe	       : [=============				  ] 32%Updating DocTypes for frappe	   : [=============			      ] 33%Updating DocTypes for frappe	       : [=============				  ] 33%Updating DocTypes for frappe	   : [=============			      ] 33%Updating DocTypes for frappe	       : [=============				  ] 34%Updating DocTypes for frappe	   : [=============			      ] 34%Updating DocTypes for frappe	       : [=============				  ] 34%Updating DocTypes for frappe	   : [=============			      ] 34%Updating DocTypes for frappe	       : [==============			  ] 35%Updating DocTypes for frappe	   : [==============			      ] 35%Updating DocTypes for frappe	       : [==============			  ] 35%Updating DocTypes for frappe	   : [==============			      ] 36%Updating DocTypes for frappe	       : [==============			  ] 36%Updating DocTypes for frappe	   : [==============			      ] 36%Updating DocTypes for frappe	       : [==============			  ] 37%Updating DocTypes for frappe	   : [==============			      ] 37%Updating DocTypes for frappe	       : [===============			  ] 37%Updating DocTypes for frappe	   : [===============			      ] 37%Updating DocTypes for frappe	       : [===============			  ] 38%Updating DocTypes for frappe	   : [===============			      ] 38%Updating DocTypes for frappe	       : [===============			  ] 38%Updating DocTypes for frappe	   : [===============			      ] 39%Updating DocTypes for frappe	       : [===============			  ] 39%Updating DocTypes for frappe	   : [===============			      ] 39%Updating DocTypes for frappe	       : [================			  ] 40%Updating DocTypes for frappe	   : [================			      ] 40%Updating DocTypes for frappe	       : [================			  ] 40%Updating DocTypes for frappe	   : [================			      ] 40%Updating DocTypes for frappe	       : [================			  ] 41%Updating DocTypes for frappe	   : [================			      ] 41%Updating DocTypes for frappe	       : [================			  ] 41%Updating DocTypes for frappe	   : [================			      ] 42%Updating DocTypes for frappe	       : [================			  ] 42%Updating DocTypes for frappe	   : [=================			      ] 42%Updating DocTypes for frappe	       : [=================			  ] 42%Updating DocTypes for frappe	   : [=================			      ] 43%Updating DocTypes for frappe	       : [=================			  ] 43%Updating DocTypes for frappe	   : [=================			      ] 43%Updating DocTypes for frappe	       : [=================			  ] 44%Updating DocTypes for frappe	   : [=================			      ] 44%Updating DocTypes for frappe	       : [=================			  ] 44%Updating DocTypes for frappe	   : [==================		      ] 45%Updating DocTypes for frappe	       : [==================			  ] 45%Updating DocTypes for frappe	   : [==================		      ] 45%Updating DocTypes for frappe	       : [==================			  ] 45%Updating DocTypes for frappe	   : [==================		      ] 46%Updating DocTypes for frappe	       : [==================			  ] 46%Updating DocTypes for frappe	   : [==================		      ] 46%Updating DocTypes for frappe	       : [==================			  ] 47%Updating DocTypes for frappe	   : [==================		      ] 47%Updating DocTypes for frappe	       : [===================			  ] 47%Updating DocTypes for frappe	   : [===================		      ] 48%Updating DocTypes for frappe	       : [===================			  ] 48%Updating DocTypes for frappe	   : [===================		      ] 48%Updating DocTypes for frappe	       : [===================			  ] 48%Updating DocTypes for frappe	   : [===================		      ] 49%Updating DocTypes for frappe	       : [===================			  ] 49%Updating DocTypes for frappe	   : [===================		      ] 49%Updating DocTypes for frappe	       : [====================			  ] 50%Updating DocTypes for frappe	   : [====================		      ] 50%Updating DocTypes for frappe	       : [====================			  ] 50%Updating DocTypes for frappe	   : [====================		      ] 51%Updating DocTypes for frappe	       : [====================			  ] 51%Updating DocTypes for frappe	   : [====================		      ] 51%Updating DocTypes for frappe	       : [====================			  ] 51%Updating DocTypes for frappe	   : [====================		      ] 52%Updating DocTypes for frappe	       : [=====================			  ] 52%Updating DocTypes for frappe	   : [=====================		      ] 52%Updating DocTypes for frappe	       : [=====================			  ] 53%Updating DocTypes for frappe	   : [=====================		      ] 53%Updating DocTypes for frappe	       : [=====================			  ] 53%Updating DocTypes for frappe	   : [=====================		      ] 54%Updating DocTypes for frappe	       : [=====================			  ] 54%Updating DocTypes for frappe	   : [=====================		      ] 54%Updating DocTypes for frappe	       : [=====================			  ] 54%Updating DocTypes for frappe	   : [======================		      ] 55%Updating DocTypes for frappe	       : [======================		  ] 55%Updating DocTypes for frappe	   : [======================		      ] 55%Updating DocTypes for frappe	       : [======================		  ] 56%Updating DocTypes for frappe	   : [======================		      ] 56%Updating DocTypes for frappe	       : [======================		  ] 56%Updating DocTypes for frappe	   : [======================		      ] 57%Updating DocTypes for frappe	       : [======================		  ] 57%Updating DocTypes for frappe	   : [=======================		      ] 57%Updating DocTypes for frappe	       : [=======================		  ] 57%Updating DocTypes for frappe	   : [=======================		      ] 58%Updating DocTypes for frappe	       : [=======================		  ] 58%Updating DocTypes for frappe	   : [=======================		      ] 58%Updating DocTypes for frappe	       : [=======================		  ] 59%Updating DocTypes for frappe	   : [=======================		      ] 59%Updating DocTypes for frappe	       : [=======================		  ] 59%Updating DocTypes for frappe	   : [========================		      ] 60%Updating DocTypes for frappe	       : [========================		  ] 60%Updating DocTypes for frappe	   : [========================		      ] 60%Updating DocTypes for frappe	       : [========================		  ] 60%Updating DocTypes for frappe	   : [========================		      ] 61%Updating DocTypes for frappe	       : [========================		  ] 61%Updating DocTypes for frappe	   : [========================		      ] 61%Updating DocTypes for frappe	       : [========================		  ] 62%Updating DocTypes for frappe	   : [========================		      ] 62%Updating DocTypes for frappe	       : [=========================		  ] 62%Updating DocTypes for frappe	   : [=========================		      ] 62%Updating DocTypes for frappe	       : [=========================		  ] 63%Updating DocTypes for frappe	   : [=========================		      ] 63%Updating DocTypes for frappe	       : [=========================		  ] 63%Updating DocTypes for frappe	   : [=========================		      ] 64%Updating DocTypes for frappe	       : [=========================		  ] 64%Updating DocTypes for frappe	   : [=========================		      ] 64%Updating DocTypes for frappe	       : [==========================		  ] 65%Updating DocTypes for frappe	   : [==========================	      ] 65%Updating DocTypes for frappe	       : [==========================		  ] 65%Updating DocTypes for frappe	   : [==========================	      ] 65%Updating DocTypes for frappe	       : [==========================		  ] 66%Updating DocTypes for frappe	   : [==========================	      ] 66%Updating DocTypes for frappe	       : [==========================		  ] 66%Updating DocTypes for frappe	   : [==========================	      ] 67%Updating DocTypes for frappe	       : [==========================		  ] 67%Updating DocTypes for frappe	   : [===========================	      ] 67%Updating DocTypes for frappe	       : [===========================		  ] 68%Updating DocTypes for frappe	   : [===========================	      ] 68%Updating DocTypes for frappe	       : [===========================		  ] 68%Updating DocTypes for frappe	   : [===========================	      ] 68%Updating DocTypes for frappe	       : [===========================		  ] 69%Updating DocTypes for frappe	   : [===========================	      ] 69%Updating DocTypes for frappe	       : [===========================		  ] 69%Updating DocTypes for frappe	   : [============================	      ] 70%Updating DocTypes for frappe	       : [============================		  ] 70%Updating DocTypes for frappe	   : [============================	      ] 70%Updating DocTypes for frappe	       : [============================		  ] 71%Updating DocTypes for frappe	   : [============================	      ] 71%Updating DocTypes for frappe	       : [============================		  ] 71%Updating DocTypes for frappe	   : [============================	      ] 71%Updating DocTypes for frappe	       : [============================		  ] 72%Updating DocTypes for frappe	   : [=============================	      ] 72%Updating DocTypes for frappe	       : [=============================		  ] 72%Updating DocTypes for frappe	   : [=============================	      ] 73%Updating DocTypes for frappe	       : [=============================		  ] 73%Updating DocTypes for frappe	   : [=============================	      ] 73%Updating DocTypes for frappe	       : [=============================		  ] 74%Updating DocTypes for frappe	   : [=============================	      ] 74%Updating DocTypes for frappe	       : [=============================		  ] 74%Updating DocTypes for frappe	   : [=============================	      ] 74%Updating DocTypes for frappe	       : [==============================	  ] 75%Updating DocTypes for frappe	   : [==============================	      ] 75%Updating DocTypes for frappe	       : [==============================	  ] 75%Updating DocTypes for frappe	   : [==============================	      ] 76%Updating DocTypes for frappe	       : [==============================	  ] 76%Updating DocTypes for frappe	   : [==============================	      ] 76%Updating DocTypes for frappe	       : [==============================	  ] 77%Updating DocTypes for frappe	   : [==============================	      ] 77%Updating DocTypes for frappe	       : [===============================	  ] 77%Updating DocTypes for frappe	   : [===============================	      ] 77%Updating DocTypes for frappe	       : [===============================	  ] 78%Updating DocTypes for frappe	   : [===============================	      ] 78%Updating DocTypes for frappe	       : [===============================	  ] 78%Updating DocTypes for frappe	   : [===============================	      ] 79%Updating DocTypes for frappe	       : [===============================	  ] 79%Updating DocTypes for frappe	   : [===============================	      ] 79%Updating DocTypes for frappe	       : [================================	  ] 80%Updating DocTypes for frappe	   : [================================	      ] 80%Updating DocTypes for frappe	       : [================================	  ] 80%Updating DocTypes for frappe	   : [================================	      ] 80%Updating DocTypes for frappe	       : [================================	  ] 81%Updating DocTypes for frappe	   : [================================	      ] 81%Updating DocTypes for frappe	       : [================================	  ] 81%Updating DocTypes for frappe	   : [================================	      ] 82%Updating DocTypes for frappe	       : [================================	  ] 82%Updating DocTypes for frappe	   : [=================================	      ] 82%Updating DocTypes for frappe	       : [=================================	  ] 82%Updating DocTypes for frappe	   : [=================================	      ] 83%Updating DocTypes for frappe	       : [=================================	  ] 83%Updating DocTypes for frappe	   : [=================================	      ] 83%Updating DocTypes for frappe	       : [=================================	  ] 84%Updating DocTypes for frappe	   : [=================================	      ] 84%Updating DocTypes for frappe	       : [=================================	  ] 84%Updating DocTypes for frappe	   : [==================================      ] 85%Updating DocTypes for frappe	       : [==================================	  ] 85%Updating DocTypes for frappe	   : [==================================      ] 85%Updating DocTypes for frappe	       : [==================================	  ] 85%Updating DocTypes for frappe	   : [==================================      ] 86%Updating DocTypes for frappe	       : [==================================	  ] 86%Updating DocTypes for frappe	   : [==================================      ] 86%Updating DocTypes for frappe	       : [==================================	  ] 87%Updating DocTypes for frappe	   : [==================================      ] 87%Updating DocTypes for frappe	       : [===================================	  ] 87%Updating DocTypes for frappe	   : [===================================     ] 88%Updating DocTypes for frappe	       : [===================================	  ] 88%Updating DocTypes for frappe	   : [===================================     ] 88%Updating DocTypes for frappe	       : [===================================	  ] 88%Updating DocTypes for frappe	   : [===================================     ] 89%Updating DocTypes for frappe	       : [===================================	  ] 89%Updating DocTypes for frappe	   : [===================================     ] 89%Updating DocTypes for frappe	       : [====================================	  ] 90%Updating DocTypes for frappe	   : [====================================    ] 90%Updating DocTypes for frappe	       : [====================================	  ] 90%Updating DocTypes for frappe	   : [====================================    ] 91%Updating DocTypes for frappe	       : [====================================	  ] 91%Updating DocTypes for frappe	   : [====================================    ] 91%Updating DocTypes for frappe	       : [====================================	  ] 91%Updating DocTypes for frappe	   : [====================================    ] 92%Updating DocTypes for frappe	       : [=====================================	  ] 92%Updating DocTypes for frappe	   : [=====================================   ] 92%Updating DocTypes for frappe	       : [=====================================	  ] 93%Updating DocTypes for frappe	   : [=====================================   ] 93%Updating DocTypes for frappe	       : [=====================================	  ] 93%Updating DocTypes for frappe	   : [=====================================   ] 94%Updating DocTypes for frappe	       : [=====================================	  ] 94%Updating DocTypes for frappe	   : [=====================================   ] 94%Updating DocTypes for frappe	       : [=====================================	  ] 94%Updating DocTypes for frappe	   : [======================================  ] 95%Updating DocTypes for frappe	       : [======================================  ] 95%Updating DocTypes for frappe	   : [======================================  ] 95%Updating DocTypes for frappe	       : [======================================  ] 96%Updating DocTypes for frappe	   : [======================================  ] 96%Updating DocTypes for frappe	       : [======================================  ] 96%Updating DocTypes for frappe	   : [======================================  ] 97%Updating DocTypes for frappe	       : [======================================  ] 97%Updating DocTypes for frappe	   : [======================================= ] 97%Updating DocTypes for frappe	       : [======================================= ] 97%Updating DocTypes for frappe	   : [======================================= ] 98%Updating DocTypes for frappe	       : [======================================= ] 98%Updating DocTypes for frappe	   : [======================================= ] 98%Updating DocTypes for frappe	       : [======================================= ] 99%Updating DocTypes for frappe	   : [======================================= ] 99%Updating DocTypes for frappe	       : [======================================= ] 99%Updating DocTypes for frappe	   : [========================================] 100%
+Set Administrator password:
+Re-enter Administrator password:
+Updating Dashboard for frappe
+arce.ukiericoncretecongress.com: SystemSettings.enable_scheduler is UNSET
+*** Scheduler is disabled ***
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ bench setup nginx
+nginx.conf already exists and this will overwrite it. Do you want to continue? [y/N]: N
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ (reverse-i-search)`cp':bcpcupdate_and_migrate.sh update_and_migrateRaiTest.shCCCCCCCCCCCCCCCCCCCCC1@C/':ccp /etc/nginx/conf.d/frappe-bench.conf ~/RaiMultiSiteFrappe/CCCCCCCCCCCCCCCCCCCCCCCCCCfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC/frappe-bench.conf1
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ cp /etc/nginx/conf.d/frappe-bench.conf ~/RaiMultiSiteFrappe/frappCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCfC~/RaiMultiSiteFrappe/frappe1P-bench.conf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCf ~/RaiMultiSiteFrappe/frappe-1Pbench.conf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCf ~/RaiMultiSiteFrappe/frappe-b1Pench.conf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCf ~/RaiMultiSiteFrappe/frappe-be1Pnch.conf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCf ~/RaiMultiSiteFrappe/frappe-ben1Pch.conf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCf ~/RaiMultiSiteFrappe/frappe-benc1Ph.conf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCf ~/RaiMultiSiteFrappe/frappe-bench1P.conf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCf ~/RaiMultiSiteFrappe/frappe-bench.1Pconf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCf ~/RaiMultiSiteFrappe/frappe-bench.c1Ponf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCf ~/RaiMultiSiteFrappe/frappe-bench.co1Pnf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCf ~/RaiMultiSiteFrappe/frappe-bench.con1Pf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCf ~/RaiMultiSiteFrappe/frappe-bench.conf1P*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCf ~/RaiMultiSiteFrappe/frappe-bench.conf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCf ~/RaiMultiSiteFrappe/frappe-bench.conf* CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC1P
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC111P11111111111111111P1PdiffC~~/RaiMultiSiteFrappe/frappe-bench.conf*
+2c2
+<	server 127.0.0.1:8000 fail_timeout=0;
+---
+>     server 127.0.0.1:8000 fail_timeout=0;
+6c6
+<	server 127.0.0.1:9000 fail_timeout=0;
+---
+>     server 127.0.0.1:9000 fail_timeout=0;
+8a9,10
+> # Server block for HTTP (port 80)
+> server {
+9a12
+>     server_name hsrai.ukiericoncretecongress.com exp.gndec.ac.in;
+11c14
+< # setup maps
+---
+>     root /home/frappe/frappe-bench/sites;
+12a16,120
+>     proxy_buffer_size 128k;
+>     proxy_buffers 4 256k;
+>     proxy_busy_buffers_size 256k;
+>
+>     add_header X-Frame-Options "SAMEORIGIN";
+>     add_header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload";
+>     add_header X-Content-Type-Options nosniff;
+>     add_header X-XSS-Protection "1; mode=block";
+>     add_header Referrer-Policy "same-origin, strict-origin-when-cross-origin";
+>
+>     location /assets {
+>	  try_files $uri =404;
+>	  add_header Cache-Control "max-age=31536000";
+>     }
+>
+>     location ~ ^/protected/(.*) {
+>	  internal;
+>	  try_files /$host/$1 =404;
+>     }
+>
+>     location /socket.io {
+>	  proxy_http_version 1.1;
+>	  proxy_set_header Upgrade $http_upgrade;
+>	  proxy_set_header Connection "upgrade";
+>	  proxy_set_header X-Frappe-Site-Name $host;
+>	  proxy_set_header Origin $scheme://$http_host;
+>	  proxy_set_header Host $host;
+>
+>	  proxy_pass http://frappe-bench-socketio-server;
+>     }
+>
+>     location / {
+>	  rewrite ^(.+)/$ $1 permanent;
+>	  rewrite ^(.+)/index\.html$ $1 permanent;
+>	  rewrite ^(.+)\.html$ $1 permanent;
+>
+>	  location ~* ^/files/.*.(htm|html|svg|xml) {
+>	      add_header Content-disposition "attachment";
+>	      try_files /$host/public/$uri @webserver;
+>	  }
+>
+>	  try_files /$host/public/$uri @webserver;
+>     }
+>
+>     location @webserver {
+>	  proxy_http_version 1.1;
+>	  proxy_set_header X-Forwarded-For $remote_addr;
+>	  proxy_set_header X-Forwarded-Proto $scheme;
+>	  proxy_set_header X-Frappe-Site-Name $host;
+>	  proxy_set_header Host $host;
+>	  proxy_set_header X-Use-X-Accel-Redirect True;
+>	  proxy_read_timeout 120;
+>	  proxy_redirect off;
+>
+>	  proxy_pass http://frappe-bench-frappe;
+>     }
+>
+>     # Error pages
+>     error_page 502 /502.html;
+>     location /502.html {
+>	  root /home/frappe/.local/lib/python3.11/site-packages/bench/config/templates;
+>	  internal;
+>     }
+>
+>     access_log /var/log/nginx/access.log main;
+>     error_log /var/log/nginx/error.log;
+>
+>     # Optimizations
+>     sendfile on;
+>     keepalive_timeout 15;
+>     client_max_body_size 50m;
+>     client_body_buffer_size 16K;
+>     client_header_buffer_size 1k;
+>
+>     # Enable gzip compression
+>     gzip on;
+>     gzip_http_version 1.1;
+>     gzip_comp_level 5;
+>     gzip_min_length 256;
+>     gzip_proxied any;
+>     gzip_vary on;
+>     gzip_types
+>	  application/atom+xml
+>	  application/javascript
+>	  application/json
+>	  application/rss+xml
+>	  application/vnd.ms-fontobject
+>	  application/x-font-ttf
+>	  application/font-woff
+>	  application/x-web-app-manifest+json
+>	  application/xhtml+xml
+>	  application/xml
+>	  font/opentype
+>	  image/svg+xml
+>	  image/x-icon
+>	  text/css
+>	  text/plain
+>	  text/x-component;
+>
+>     listen [::]:443 ssl ipv6only=on; # managed by Certbot
+>     listen 443 ssl; # managed by Certbot
+>     ssl_certificate /etc/letsencrypt/live/hsrai.ukiericoncretecongress.com/fullchain.pem; # managed by Certbot
+>     ssl_certificate_key /etc/letsencrypt/live/hsrai.ukiericoncretecongress.com/privkey.pem; # managed by Certbot
+>     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+>     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+14d121
+< # server blocks
+16,134d122
+< server {
+<
+<	listen 80;
+<	listen [::]:80;
+<
+<
+<	server_name
+<		hsrai.ukiericoncretecongress.com
+<		exp.gndec.ac.in
+<		;
+<
+<	root /home/frappe/frappe-bench/sites;
+<
+<
+<
+<	proxy_buffer_size 128k;
+<	proxy_buffers 4 256k;
+<	proxy_busy_buffers_size 256k;
+<
+<
+<
+<	add_header X-Frame-Options "SAMEORIGIN";
+<	add_header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload";
+<	add_header X-Content-Type-Options nosniff;
+<	add_header X-XSS-Protection "1; mode=block";
+<	add_header Referrer-Policy "same-origin, strict-origin-when-cross-origin";
+<
+<	location /assets {
+<		try_files $uri =404;
+<		add_header Cache-Control "max-age=31536000";
+<	}
+<
+<	location ~ ^/protected/(.*) {
+<		internal;
+<		try_files /$host/$1 =404;
+<	}
+<
+<	location /socket.io {
+<		proxy_http_version 1.1;
+<		proxy_set_header Upgrade $http_upgrade;
+<		proxy_set_header Connection "upgrade";
+<		proxy_set_header X-Frappe-Site-Name $host;
+<		proxy_set_header Origin $scheme://$http_host;
+<		proxy_set_header Host $host;
+<
+<		proxy_pass http://frappe-bench-socketio-server;
+<	}
+<
+<	location / {
+<
+<		rewrite ^(.+)/$ $1 permanent;
+<		rewrite ^(.+)/index\.html$ $1 permanent;
+<		rewrite ^(.+)\.html$ $1 permanent;
+<
+<		location ~* ^/files/.*.(htm|html|svg|xml) {
+<			add_header Content-disposition "attachment";
+<			try_files /$host/public/$uri @webserver;
+<		}
+<
+<		try_files /$host/public/$uri @webserver;
+<	}
+<
+<	location @webserver {
+<		proxy_http_version 1.1;
+<		proxy_set_header X-Forwarded-For $remote_addr;
+<		proxy_set_header X-Forwarded-Proto $scheme;
+<		proxy_set_header X-Frappe-Site-Name $host;
+<		proxy_set_header Host $host;
+<		proxy_set_header X-Use-X-Accel-Redirect True;
+<		proxy_read_timeout 120;
+<		proxy_redirect off;
+<
+<		proxy_pass  http://frappe-bench-frappe;
+<	}
+<
+<	# error pages
+<	error_page 502 /502.html;
+<	location /502.html {
+<		root /home/frappe/.local/lib/python3.11/site-packages/bench/config/templates;
+<		internal;
+<	}
+<
+<	access_log  /var/log/nginx/access.log main;
+<	error_log  /var/log/nginx/error.log;
+<
+<	# optimizations
+<	sendfile on;
+<	keepalive_timeout 15;
+<	client_max_body_size 50m;
+<	client_body_buffer_size 16K;
+<	client_header_buffer_size 1k;
+<
+<	# enable gzip compresion
+<	# based on https://mattstauffer.co/blog/enabling-gzip-on-nginx-servers-including-laravel-forge
+<	gzip on;
+<	gzip_http_version 1.1;
+<	gzip_comp_level 5;
+<	gzip_min_length 256;
+<	gzip_proxied any;
+<	gzip_vary on;
+<	gzip_types
+<		application/atom+xml
+<		application/javascript
+<		application/json
+<		application/rss+xml
+<		application/vnd.ms-fontobject
+<		application/x-font-ttf
+<		application/font-woff
+<		application/x-web-app-manifest+json
+<		application/xhtml+xml
+<		application/xml
+<		font/opentype
+<		image/svg+xml
+<		image/x-icon
+<		text/css
+<		text/plain
+<		text/x-component
+<		;
+<		# text/html is always compressed by HttpGzipModule
+136a125,142
+> # HTTPS configuration will be added by Certbot
+>
+> server {
+>     if ($host = exp.gndec.ac.in) {
+>	  return 301 https://$host$request_uri;
+>     } # managed by Certbot
+>
+>
+>     if ($host = hsrai.ukiericoncretecongress.com) {
+>	  return 301 https://$host$request_uri;
+>     } # managed by Certbot
+>
+>
+>     listen 80;
+>     listen [::]:80;
+>
+>     server_name hsrai.ukiericoncretecongress.com exp.gndec.ac.in;
+>     return 404; # managed by Certbot
+140a147
+> }
+\ No newline at end of file
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ diff 1111PlsC-trlC~~/RaiMultiSiteFrappe/frappe-bench.conf*
+-rw-r--r-- 1 frappe frappe 2925 Aug 31 12:12 /home/frappe/RaiMultiSiteFrappe/frappe-bench.conf
+-rw-r--r-- 1 frappe frappe 4033 Sep  8 18:18 /home/frappe/RaiMultiSiteFrappe/frappe-bench.conf1
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ ls -tr1111P11P1@j1@o1@eiSiteFrappe/frappe-bench.conf*
+
+H1;23rH	   IW	~/RaiMultiSiteFrappe/frappe-bench.conf				Row 1	 Col 1
+upstream frappe-bench-frappe {
+	server 127.0.0.1:8000 fail_timeout=0;
+}
+
+upstream frappe-bench-socketio-server {
+	server 127.0.0.1:9000 fail_timeout=0;
+}
+
+    IW	 ~/RaiMultiSiteFrappe/frappe-bench.conf1			 Row 1	  Col 1
+upstream frappe-bench-frappe {
+    server 127.0.0.1:8000 fail_timeout=0;
+}
+
+upstream frappe-bench-socketio-server {
+    server 127.0.0.1:9000 fail_timeout=0;
+}
+
+# Server block for HTTP (port 80)
+server {
+ Joe's Own Editor 4.6 (utf-8) ** Type Ctrl-K Q to exit or Ctrl-K H for help **H
+^[
+2C[
+   74C222B3dH^[
+
+H2C[
+
+H   74C3
+
+H^[
+
+H2C[
+
+H   74C4
+
+H^[
+
+H2C[
+
+H   74C55BH^[5BH2C[5BH	 74C66BH^[6BH2C[6BH   74C77BH^[7BH2C[7BH   74C88BH^[8BH2C[8BH	74C99BH^[9BH2C[9BH   74C1010BH^[10BH2C[10B2;11r11d
+1;23rH	 75C110B# setup mapsH^[10BH2C[10B2;11r11d
+1;23rH	 75C210BH^[10BH2C[10B2;11r11d
+1;23rH	 75C310BH^[10BH2C[10B2;11r11d
+1;23rH	 75C410B# server blocksH^[10BH2C[10B2;11r11d
+1;23rH	 75C510BH^[10BH2C[10B2;11r11d
+1;23rH	 75C610Bserver {H^[10BH2C[10B2;11r11d
+1;23rH	 75C711;9HH^[10BH2C[10B2;11r11d
+1;23rH	 75C811;9Hlisten 80;H^[10BH2C[10B2;11r11d
+1;23rH	 75C911;9Hlisten [::]:80;H^[10BH2C[10B2;11r11d
+1;23rH	 74C2011;9HH^K10BH  12B^[
+2C[
+   74C2
+
+^[
+
+2C[
+
+   74C3
+
+3A^[
+
+3A2C[
+
+3A   74C4
+
+4A^[
+
+4A2C[
+
+4A   74C55B5A^[5B5A2C[5B5A   74C66B6A^[6B6A2C[6B6A   74C77B7A^[7B7A2C[7B7A   74C88B8A^[8B8A2C[8B8A   74C99B9A^[9B9A2C[9B9A   74C1010B10A^[10B10A2C[10B10A   75C111B11A^[11B11A2C[11B10AM   75C223;5Hserver_name hsrai.ukiericoncretecongress.com exp.gndec.ac.in;11A^[11B11A2C[11B10AM	 75C311B11A^[11B11A2C[11B10AM	75C423;5Hroot /home/frappe/frappe-bench/sites;11A^[11B11A2C[11B10AM   75C511B11A^[11B11A2C[11B10AM   75C623;5Hproxy_buffer_size 128k;11A^[11B11A2C[11B10AM   75C723;5Hproxy_buffers 4 256k;11A^[11B11A2C[11B10AM   75C823;5Hproxy_busy_buffers_size 256k;11A^K11B11A  H^[10BH2C[10BH   74C199BH^[9BH2C[9BH   75C88BH^[8BH2C[8BH	  75C77BH^[7BH2C[7BH   75C66BH^[6BH2C[6BH   75C55BH^[5BH2C[5BH	 75C4
+
+H^[
+
+H2C[
+
+H   75C3
+
+H^[
+
+H2C[
+
+H   75C2
+
+H^[
+
+H2C[
+
+H   75C1
+^[
+2C[
+2;11rH
+1;23rH	 75C0
+^[
+2C[
+2;11rH
+1;23rH	 74C9
+^[
+2C[
+2;11rH
+1;23rH	 74C8
+^[
+2C[
+2;11rH
+1;23rH	 74C7
+^[
+2C[
+2;11rH
+1;23rH	 74C69G
+server 127.0.0.1:9000 fail_timeout=0;^[
+2C[
+2;11rH
+1;23rH	 74C5
+upstream frappe-bench-socketio-server {^K
+  22B11A^[11B11A2C[11B11A   75C710B10A^[10B10A2C[10B10A	  75C69B9A^[9B9A2C[9B9A	  75C58B8A^[8B8A2C[8B8A	  75C47B7A^[7B7A2C[7B7A	  75C36B6A^[6B6A2C[6B6A	  75C25B5A^[5B5A2C[5B5A	  75C1
+
+4A^[
+
+4A2C[
+
+4A   75C0
+
+3A^[
+
+3A2C[
+
+3A   74C9
+
+^[
+
+2C[
+
+   74C8
+^[
+2C[
+L   74C7
+^[
+2C[
+L   74C65G
+server 127.0.0.1:9000 fail_timeout=0;^[
+2C[
+   74C7
+
+^[
+
+2C[
+
+   74C8
+
+3A^[
+
+3A2C[
+
+3A   74C9
+
+4A^[
+
+4A2C[
+
+4A   74C105B5A^[5B5A2C[5B5A   75C16B6A^[6B6A2C[6B6A   75C27B7A^[7B7A2C[7B7A   75C38B8A^[8B8A2C[8B8A   75C49B9A^[9B9A2C[9B9A   75C510B10A^[10B10A2C[10B10A   75C611B11A^[11B11A2C[11B10AM   75C723;5Hproxy_buffers 4 256k;11A^[11B11A2C[11B10AM	 75C823;5Hproxy_busy_buffers_size 256k;11A^[11B11A2C[11B10AM   75C911B11A^K11B11A  H
+^[
+2C[
+   74C6
+
+H^[
+
+H2C[
+
+H   74C7
+
+H^[
+
+H2C[
+
+H   74C8
+
+H^[
+
+H2C[
+
+H   74C95BH^[5BH2C[5BH	 74C106BH^[6BH2C[6BH   75C17BH^[7BH2C[7BH   75C28BH^[8BH2C[8BH	 75C39BH^[9BH2C[9BH   75C410BH^[10BH2C[10B2;11r11d
+1;23rH	 75C510BH^[10BH2C[10B2;11r11d
+1;23rH	 75C610Bserver {H^[10BH2C[10B2;11r11d
+1;23rH	 75C711;9HH^[10BH2C[10B2;11r11d
+1;23rH	 75C811;9Hlisten 80;H^[10BH2C[10B2;11r11d
+1;23rH	 75C911;9Hlisten [::]:80;H^[10BH2C[10B2;11r11d
+1;23rH	 74C2011;9HH^[10BH2C[10B2;11r11d
+1;23rH	 75C110BH^[10BH2C[10B2;11r11d
+1;23rH	 75C211;9Hserver_nameH^[10BH2C[10B2;11r11d
+1;23rH	 75C311;17Hhsrai.ukiericoncretecongress.comH^[10BH2C[10B2;11r11d
+1;23rH	 75C411;17Hexp.gndec.ac.inH^[10BH2C[10B2;11r11d
+1;23rH	 75C511;17H;H^K10BH  22B11A^[11B11A2C[11B10AM	74C2023;5Hadd_header X-Frame-Options "SAMEORIGIN";11A
+	root /home/frappe/frappe-bench/sites;5G
+
+    proxy_buffer_size 128k;
+ 7Cproxy_buffers 4 256k;5G
+    proxy_busy_buffers_size 256k;
+
+4C
+
+    add_header X-Frame-Options "SAMEORIGIN";File /home/frappe/RaiMultiSiteFrappe/frappe-bench.conf1 not changed so no update needed12A12B
+File /home/frappe/RaiMultiSiteFrappe/frappe-bench.conf not changed so no update needed
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ ls ../^C
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ ls -trl ~/
+total 192
+drwxr-xr-x 3 frappe frappe  4096 Jul  4 08:51 erpnext_quick_install
+drwxr-xr-x 2 frappe frappe  4096 Jul 18 16:02 test
+-rw-r--r-- 1 frappe frappe  1874 Aug 10 14:08 nginx.confOrg20240810
+-rw-r--r-- 1 frappe frappe  3491 Aug 10 14:17 frappe-bench.confOrg20240810
+drwxr-xr-x 2 frappe frappe  4096 Aug 10 14:28 public_html
+-rw-r--r-- 1 frappe frappe  3834 Aug 10 14:31 frappe-bench.confPerUser
+drwxr-xr-x 3 frappe frappe  4096 Aug 16 08:50 FrappeTemplateIssue
+drwxr-xr-x 2 frappe frappe  4096 Aug 24 18:25 FrappeChanges
+drwxr-xr-x 4 frappe frappe  4096 Aug 25 07:57 nltk_data
+drwxr-xr-x 6 frappe frappe  4096 Aug 25 19:17 Images
+drwxr-xr-x 6 frappe frappe  4096 Aug 27 12:44 ClassNotes
+drwxr-xr-x 3 frappe frappe  4096 Aug 29 20:49 HackFriDay
+drwxr-xr-x 8 frappe frappe  4096 Aug 31 12:42 frappe-bench
+-rw-r--r-- 1 frappe frappe   142 Sep  2 15:20 updateLMS.sh
+-rw-r--r-- 1 frappe frappe   741 Sep  2 15:55 updateLMS.log~
+-rw-r--r-- 1 frappe frappe 22737 Sep  4 09:00 updateLMS.log001
+-rwxr-xr-x 1 frappe frappe  2569 Sep  4 19:14 update_and_migrateRaiTest.sh~
+-rwxr-xr-x 1 frappe frappe  2524 Sep  4 19:15 update_and_migrateRaiTest.sh
+-rwxr-xr-x 1 frappe frappe  2456 Sep  4 19:19 update_and_migrate.sh~
+-rwxr-xr-x 1 frappe frappe  2469 Sep  4 19:19 update_and_migrate.sh
+drwxr-xr-x 4 frappe frappe  4096 Sep  6 18:57 NotesPages
+drwxr-xr-x 3 frappe frappe  4096 Sep  8 15:11 Trust
+-rw-r--r-- 1 frappe frappe 73215 Sep  8 18:15 updateLMS.log
+drwxr-xr-x 2 frappe frappe  4096 Sep  8 18:18 RaiMultiSiteFrappe
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ ls ~/Trust/
+abc.txt			log_with_timestamp.sh	test.md
+abc.txt~		log_with_timestamp.sh~
+Backup/			MyLog.txt
+frappe@cc:~/frappe-bench$ ls ~/Trust/Backup/frappe-bench.conf -trl
+-rw-r--r-- 1 frappe frappe 4033 Sep  8 11:23 /home/frappe/Trust/Backup/frappe-bench.conf
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ (reverse-i-search)`c': ls ~/Trust/Backup/frappe-bench.CCCCCCCCCCCCCCCCCCCCp': cp /etc/nginx/conf.d/frappe-bench.conf ~/RaiMultiSiteFrappe/frappe-bench.conf1 CCCCCCCCCCCfrappe@cc:~/frappe-bench$ cp /etc/nginx/conf.d/frappe-bench.conf ~/RaiMultiSiteFrappe/frapp2@e-frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC/RaiMultiSiteFrappe/frappe1Pfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCRaiMultiSiteFrappe/frappe-1Pfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCaiMultiSiteFrappe/frappe-b1Pfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCiMultiSiteFrappe/frappe-be1Pfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCMultiSiteFrappe/frappe-ben1Pfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCultiSiteFrappe/frappe-benc1Pfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCltiSiteFrappe/frappe-bench1Pfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCtiSiteFrappe/frappe-bench.1Pfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCiSiteFrappe/frappe-bench.c1Pfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCSiteFrappe/frappe-bench.co1Pfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCiteFrappe/frappe-bench.con1Pfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCteFrappe/frappe-bench.conf1Pfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeFrappe/frappe-bench.conf11P frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCFrappe/frappe-bench.conf1 frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCrappe/frappe-bench.conf1	 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC1P
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC1PC11P1P1P1P1P1PC11P1P1P1P1P1P1P1P1P1P1P1P1P1P~/Trust/
+abc.txt			log_with_timestamp.sh	test.md
+abc.txt~		log_with_timestamp.sh~
+Backup/			MyLog.txt
+frappe@cc:~/frappe-bench$ cp /etc/nginx/conf.d/frappe-bench.conf ~/Trust/Backup/frappe-bench.conf1
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ cp /etc/nginx/conf.d/frappe-bench.conf ~/Trust/Backup/frappe-bencCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench1P.conf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench.1Pconf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench.c1Ponf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench.co1Pnf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench.con1Pf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench.conf1P*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench.conf*frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench.conf* CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC1P ~/Trust/Backup/frappe-bench.conf*
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC11111111111111111111111111P11PdiffC~~/Trust/Backup/frappe-bench.conf*
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ difCC1111Pls~~/Trust/Backup/frappe-bench.conf*
+/home/frappe/Trust/Backup/frappe-bench.conf  /home/frappe/Trust/Backup/frappe-bench.conf1
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ ls ~/Trust/Backup/frappe-bench.conf* -trl
+-rw-r--r-- 1 frappe frappe 4033 Sep  8 11:23 /home/frappe/Trust/Backup/frappe-bench.conf
+-rw-r--r-- 1 frappe frappe 4033 Sep  8 18:24 /home/frappe/Trust/Backup/frappe-bench.conf1
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ (reverse-i-search)`e': ls ~/Trust/Backup/frappe-bCCCCCCCCCCCCCCCCCCCC ': joe	~/RaiMultiSiteFrappe/frappe-bench.conf*CCCCCCCCCCCCCCCCCCCCC9Ps': joe sites/common_site_config.json CCCCCCCCCCCCCCCCCCCCCC4Pe': git remot^Cset-head origin -a
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ (reverse-i-search)`c': ls ~/Trust/Backup/frappe-bench.CCCCCCCCCCCCCCCCCCCC1@h': ls ~/Trust/Backup/frappe-benCCCCCCCCCCCCCCCCCCCCC23P 1@s':nbenfrappe@cc:~/frappe-bench$ bench s
+nginx.conf already exists and this will overwrite it. Do you want to continue? [y/N]: y
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ (reverse-i-search)`cp':bcpc/etc/nginx/conf.d/frappe-bench.conf ~/Trust/Backup/frappe-bench.conf1CCCCCCCCCCCCCCCC': cp /etc/nginx/conf.d/frappe-bench.conf ~/Trust/Backup/frappe-bench.conf1CCCCCCCCCCCCCCCCCCfrappe@cc:~/frappe-bench$ cp /etc/nginx/conf.d/frappe-bench.conf ~/Trust/Backup/frappe-bench.conf1frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCC2
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ cp /etc/nginx/conf.d/frappe-bench.conf ~/Trust/Backup/frappe-bencCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench1P.conf?frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench.1Pconf?frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench.c1Ponf?frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench.co1Pnf?frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench.con1Pf?frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench.conf1P?frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench.conf?frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC~/Trust/Backup/frappe-bench.conf? CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC1P ~/Trust/Backup/frappe-bench.conf?
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC11111111111111111111111111P11PlsC-trl~~/Trust/Backup/frappe-bench.conf?
+-rw-r--r-- 1 frappe frappe 4033 Sep  8 18:24 /home/frappe/Trust/Backup/frappe-bench.conf1
+-rw-r--r-- 1 frappe frappe 2959 Sep  8 18:26 /home/frappe/Trust/Backup/frappe-bench.conf2
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ ls -tr1111P11PdiffC~~/Trust/Backup/frappe-bench.conf?
+2c2
+<     server 127.0.0.1:8000 fail_timeout=0;
+---
+>	server 127.0.0.1:8000 fail_timeout=0;
+6c6
+<     server 127.0.0.1:9000 fail_timeout=0;
+---
+>	server 127.0.0.1:9000 fail_timeout=0;
+9,12d8
+< # Server block for HTTP (port 80)
+< server {
+<
+<     server_name hsrai.ukiericoncretecongress.com exp.gndec.ac.in;
+14d9
+<     root /home/frappe/frappe-bench/sites;
+16,120c11
+<     proxy_buffer_size 128k;
+<     proxy_buffers 4 256k;
+<     proxy_busy_buffers_size 256k;
+<
+<     add_header X-Frame-Options "SAMEORIGIN";
+<     add_header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload";
+<     add_header X-Content-Type-Options nosniff;
+<     add_header X-XSS-Protection "1; mode=block";
+<     add_header Referrer-Policy "same-origin, strict-origin-when-cross-origin";
+<
+<     location /assets {
+<	  try_files $uri =404;
+<	  add_header Cache-Control "max-age=31536000";
+<     }
+<
+<     location ~ ^/protected/(.*) {
+<	  internal;
+<	  try_files /$host/$1 =404;
+<     }
+<
+<     location /socket.io {
+<	  proxy_http_version 1.1;
+<	  proxy_set_header Upgrade $http_upgrade;
+<	  proxy_set_header Connection "upgrade";
+<	  proxy_set_header X-Frappe-Site-Name $host;
+<	  proxy_set_header Origin $scheme://$http_host;
+<	  proxy_set_header Host $host;
+<
+<	  proxy_pass http://frappe-bench-socketio-server;
+<     }
+<
+<     location / {
+<	  rewrite ^(.+)/$ $1 permanent;
+<	  rewrite ^(.+)/index\.html$ $1 permanent;
+<	  rewrite ^(.+)\.html$ $1 permanent;
+<
+<	  location ~* ^/files/.*.(htm|html|svg|xml) {
+<	      add_header Content-disposition "attachment";
+<	      try_files /$host/public/$uri @webserver;
+<	  }
+<
+<	  try_files /$host/public/$uri @webserver;
+<     }
+<
+<     location @webserver {
+<	  proxy_http_version 1.1;
+<	  proxy_set_header X-Forwarded-For $remote_addr;
+<	  proxy_set_header X-Forwarded-Proto $scheme;
+<	  proxy_set_header X-Frappe-Site-Name $host;
+<	  proxy_set_header Host $host;
+<	  proxy_set_header X-Use-X-Accel-Redirect True;
+<	  proxy_read_timeout 120;
+<	  proxy_redirect off;
+<
+<	  proxy_pass http://frappe-bench-frappe;
+<     }
+<
+<     # Error pages
+<     error_page 502 /502.html;
+<     location /502.html {
+<	  root /home/frappe/.local/lib/python3.11/site-packages/bench/config/templates;
+<	  internal;
+<     }
+<
+<     access_log /var/log/nginx/access.log main;
+<     error_log /var/log/nginx/error.log;
+<
+<     # Optimizations
+<     sendfile on;
+<     keepalive_timeout 15;
+<     client_max_body_size 50m;
+<     client_body_buffer_size 16K;
+<     client_header_buffer_size 1k;
+<
+<     # Enable gzip compression
+<     gzip on;
+<     gzip_http_version 1.1;
+<     gzip_comp_level 5;
+<     gzip_min_length 256;
+<     gzip_proxied any;
+<     gzip_vary on;
+<     gzip_types
+<	  application/atom+xml
+<	  application/javascript
+<	  application/json
+<	  application/rss+xml
+<	  application/vnd.ms-fontobject
+<	  application/x-font-ttf
+<	  application/font-woff
+<	  application/x-web-app-manifest+json
+<	  application/xhtml+xml
+<	  application/xml
+<	  font/opentype
+<	  image/svg+xml
+<	  image/x-icon
+<	  text/css
+<	  text/plain
+<	  text/x-component;
+<
+<     listen [::]:443 ssl ipv6only=on; # managed by Certbot
+<     listen 443 ssl; # managed by Certbot
+<     ssl_certificate /etc/letsencrypt/live/hsrai.ukiericoncretecongress.com/fullchain.pem; # managed by Certbot
+<     ssl_certificate_key /etc/letsencrypt/live/hsrai.ukiericoncretecongress.com/privkey.pem; # managed by Certbot
+<     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+<     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+---
+> # setup maps
+123,125c14
+< }
+<
+< # HTTPS configuration will be added by Certbot
+---
+> # server blocks
+128,139c17,136
+<     if ($host = exp.gndec.ac.in) {
+<	  return 301 https://$host$request_uri;
+<     } # managed by Certbot
+<
+<
+<     if ($host = hsrai.ukiericoncretecongress.com) {
+<	  return 301 https://$host$request_uri;
+<     } # managed by Certbot
+<
+<
+<     listen 80;
+<     listen [::]:80;
+---
+>
+>	listen 80;
+>	listen [::]:80;
+>
+>
+>	server_name
+>		arce.ukiericoncretecongress.com
+>		hsrai.ukiericoncretecongress.com
+>		exp.gndec.ac.in
+>		;
+>
+>	root /home/frappe/frappe-bench/sites;
+>
+>
+>
+>	proxy_buffer_size 128k;
+>	proxy_buffers 4 256k;
+>	proxy_busy_buffers_size 256k;
+>
+>
+>
+>	add_header X-Frame-Options "SAMEORIGIN";
+>	add_header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload";
+>	add_header X-Content-Type-Options nosniff;
+>	add_header X-XSS-Protection "1; mode=block";
+>	add_header Referrer-Policy "same-origin, strict-origin-when-cross-origin";
+>
+>	location /assets {
+>		try_files $uri =404;
+>		add_header Cache-Control "max-age=31536000";
+>	}
+>
+>	location ~ ^/protected/(.*) {
+>		internal;
+>		try_files /$host/$1 =404;
+>	}
+>
+>	location /socket.io {
+>		proxy_http_version 1.1;
+>		proxy_set_header Upgrade $http_upgrade;
+>		proxy_set_header Connection "upgrade";
+>		proxy_set_header X-Frappe-Site-Name $host;
+>		proxy_set_header Origin $scheme://$http_host;
+>		proxy_set_header Host $host;
+>
+>		proxy_pass http://frappe-bench-socketio-server;
+>	}
+>
+>	location / {
+>
+>		rewrite ^(.+)/$ $1 permanent;
+>		rewrite ^(.+)/index\.html$ $1 permanent;
+>		rewrite ^(.+)\.html$ $1 permanent;
+>
+>		location ~* ^/files/.*.(htm|html|svg|xml) {
+>			add_header Content-disposition "attachment";
+>			try_files /$host/public/$uri @webserver;
+>		}
+>
+>		try_files /$host/public/$uri @webserver;
+>	}
+>
+>	location @webserver {
+>		proxy_http_version 1.1;
+>		proxy_set_header X-Forwarded-For $remote_addr;
+>		proxy_set_header X-Forwarded-Proto $scheme;
+>		proxy_set_header X-Frappe-Site-Name $host;
+>		proxy_set_header Host $host;
+>		proxy_set_header X-Use-X-Accel-Redirect True;
+>		proxy_read_timeout 120;
+>		proxy_redirect off;
+>
+>		proxy_pass  http://frappe-bench-frappe;
+>	}
+>
+>	# error pages
+>	error_page 502 /502.html;
+>	location /502.html {
+>		root /home/frappe/.local/lib/python3.11/site-packages/bench/config/templates;
+>		internal;
+>	}
+>
+>	access_log  /var/log/nginx/access.log main;
+>	error_log  /var/log/nginx/error.log;
+>
+>	# optimizations
+>	sendfile on;
+>	keepalive_timeout 15;
+>	client_max_body_size 50m;
+>	client_body_buffer_size 16K;
+>	client_header_buffer_size 1k;
+>
+>	# enable gzip compresion
+>	# based on https://mattstauffer.co/blog/enabling-gzip-on-nginx-servers-including-laravel-forge
+>	gzip on;
+>	gzip_http_version 1.1;
+>	gzip_comp_level 5;
+>	gzip_min_length 256;
+>	gzip_proxied any;
+>	gzip_vary on;
+>	gzip_types
+>		application/atom+xml
+>		application/javascript
+>		application/json
+>		application/rss+xml
+>		application/vnd.ms-fontobject
+>		application/x-font-ttf
+>		application/font-woff
+>		application/x-web-app-manifest+json
+>		application/xhtml+xml
+>		application/xml
+>		font/opentype
+>		image/svg+xml
+>		image/x-icon
+>		text/css
+>		text/plain
+>		text/x-component
+>		;
+>		# text/html is always compressed by HttpGzipModule
+> }
+141,142d137
+<     server_name hsrai.ukiericoncretecongress.com exp.gndec.ac.in;
+<     return 404; # managed by Certbot
+147d141
+< }
+\ No newline at end of file
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ dif1111P1@j1@o1@ekup/frappe-bench.conf?
+
+H1;23rH	   IW	~/Trust/Backup/frappe-bench.conf1				Row 1	 Col 1
+upstream frappe-bench-frappe {
+    server 127.0.0.1:8000 fail_timeout=0;
+}
+
+upstream frappe-bench-socketio-server {
+    server 127.0.0.1:9000 fail_timeout=0;
+}
+
+# Server block for HTTP (port 80)
+server {
+    IW	 ~/Trust/Backup/frappe-bench.conf2				 Row 1	  Col 1
+upstream frappe-bench-frappe {
+	server 127.0.0.1:8000 fail_timeout=0;
+}
+
+upstream frappe-bench-socketio-server {
+	server 127.0.0.1:9000 fail_timeout=0;
+}
+
+# setup maps Joe's Own Editor 4.6 (utf-8) ** Type Ctrl-K Q to exit or Ctrl-K H for help **H
+^[
+2C[
+   74C222B# setup mapsH
+
+H^[
+
+H2C[
+
+H   74C3
+
+H^[
+
+H2C[
+
+H   74C4
+
+H^[
+
+H2C[
+
+H   74C55BH^[5BH2C[5BH	 74C66BH^[6BH2C[6BH   74C77BH^[7BH2C[7BH   74C88BH^[8BH2C[8BH	74C99BH^[9BH2C[9BH   74C1010BH^[10BH2C[10B2;11r11d
+1;23rH	 75C110BH^[10BH2C[10B2;11r11d
+1;23rH	 75C211;5Hserver_name hsrai.ukiericoncretecongress.com exp.gndec.ac.in;H^[10BH2C[10B2;11r11d
+1;23rH	 75C310BH^[10BH2C[10B2;11r11d
+1;23rH	 75C411;5Hroot /home/frappe/frappe-bench/sites;H^[10BH2C[10B2;11r11d
+1;23rH	 75C510BH^[10BH2C[10B2;11r11d
+1;23rH	 75C611;5Hproxy_buffer_size 128k;H^[10BH2C[10B2;11r11d
+1;23rH	 75C711;5Hproxy_buffers 4 256k;H^[10BH2C[10B2;11r11d
+1;23rH	 75C811;5Hproxy_busy_buffers_size 256k;H^K10BH	12B^[
+2C[
+   74C2
+
+^[
+
+2C[
+
+   74C3
+
+3A^[
+
+3A2C[
+
+3A   74C4
+
+4A^[
+
+4A2C[
+
+4A   74C55B5A^[5B5A2C[5B5A   74C66B6A^[6B6A2C[6B6A   74C77B7A^[7B7A2C[7B7A   74C88B8A^[8B8A2C[8B8A   74C99B9A^[9B9A2C[9B9A   74C1010B10A^[10B10A2C[10B10A   75C111B11A^[11B11A2C[11B10AM   75C211B11A^[11B11A2C[11B10AM	  75C311B11A^[11B11A2C[11B10AM	 75C411B# server blocks11A^[11B11A2C[11B10AM   75C511B11A^[11B11A2C[11B10AM   75C611Bserver {11A^[11B11A2C[11B10AM   75C723;9H11A^[11B11A2C[11B10AM   75C823;9Hlisten 80;11A^[11B11A2C[11B10AM	 75C923;9Hlisten [::]:80;11A^[11B11A2C[11B10AM	 74C2023;9H11A^[11B11A2C[11B10AM   75C111B11A^[11B11A2C[11B10AM	  75C223;9Hserver_name11A^[11B11A2C[11B10AM   75C323;17Harce.ukiericoncretecongress.com11A^[11B11A2C[11B10AM   75C423;17Hhsrai.ukiericoncretecongress.com11A^[11B11A2C[11B10AM	 75C523;17Hexp.gndec.ac.in11A^[11B11A2C[11B10AM	  75C623;17H;11A^K11B11A  H^[10BH2C[10B2;11r11d
+1;23rH	 75C910BH^[10BH2C[10B2;11r11d
+1;23rH	 74C2011;5Hadd_header X-Frame-Options "SAMEORIGIN";H^[10BH2C[10B2;11r11d
+1;23rH	 75C111;5Hadd_header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload";H^[10BH2C[10B2;11r11d
+1;23rH	 75C211;5Hadd_header X-Content-Type-Options nosniff;H^[10BH2C[10B2;11r11d
+1;23rH	 75C311;5Hadd_header X-XSS-Protection "1; mode=block";H^K10BH  22B11A^[11B11A2C[11B10AM	  75C711B11A^[11B11A2C[11B10AM	 75C823;9Hroot /home/frappe/frappe-bench/sites;11A^[11B11A2C[11B10AM   75C911B11A^[11B11A2C[11B10AM   74C3023;9H11A^[11B11A2C[11B10AM	75C111B11A^[11B11A2C[11B10AM   75C223;9Hproxy_buffer_size 128k;11A^[11B11A2C[11B10AM   75C323;9Hproxy_buffers 4 256k;11A^[11B11A2C[11B10AM   75C423;9Hproxy_busy_buffers_size 256k;11A^[11B11A2C[11B10AM   75C511B11A^[11B11A2C[11B10AM	  75C623;9H11A^[11B11A2C[11B10AM   75C711B11A^[11B11A2C[11B10AM	  75C823;9Hadd_header X-Frame-Options "SAMEORIGIN";11A^[11B11A2C[11B10AM   75C923;9Hadd_header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload11A^[11B11A2C[11B10AM   74C4023;9Hadd_header X-Content-Type-Options nosniff;11A^[11B11A2C[11B10AM	  75C123;9Hadd_header X-XSS-Protection "1; mode=block";11A^[11B11A2C[11B10AM   75C223;9Hadd_header Referrer-Policy "same-origin, strict-origin-when-cross-origin";11A^[11B11A2C[11B10AM	  75C311B11A^[11B11A2C[11B10AM	 75C423;9Hlocation /assets {11A^[11B11A2C[11B10AM   75C523;17Htry_files $uri =404;11A^[11B11A2C[11B10AM	  75C623;17Hadd_header Cache-Control "max-age=31536000";11A^[11B11A2C[11B10AM	75C723;9H}11A^[11B11A2C[11B10AM	  75C811B11A^K11B11A  H^[10BH2C[10B2;11r11d
+1;23rH	 75C411;5Hadd_header Referrer-Policy "same-origin, strict-origin-when-cross-origin";H^[10BH2C[10B2;11r11d
+1;23rH	 75C510BH^[10BH2C[10B2;11r11d
+1;23rH	 75C611;5Hlocation /assets {H^[10BH2C[10B2;11r11d
+1;23rH	 75C711;9Htry_files $uri =404;H^[10BH2C[10B2;11r11d
+1;23rH	 75C811;9Hadd_header Cache-Control "max-age=31536000";H^[10BH2C[10B2;11r11d
+1;23rH	 75C911;5H}H^[10BH2C[10B2;11r11d
+1;23rH	 74C3010BH^[10BH2C[10B2;11r11d
+1;23rH	 75C111;5Hlocation ~ ^/protected/(.*) {H^[10BH2C[10B2;11r11d
+1;23rH	 75C211;9Hinternal;H^[10BH2C[10B2;11r11d
+1;23rH	 75C311;9Htry_files /$host/$1 =404;H^[10BH2C[10B2;11r11d
+1;23rH	 75C411;5H}H^[10BH2C[10B2;11r11d
+1;23rH	 75C510BH^[10BH2C[10B2;11r11d
+1;23rH	 75C611;5Hlocation /socket.io {H^[10BH2C[10B2;11r11d
+1;23rH	 75C711;9Hproxy_http_version 1.1;H^[10BH2C[10B2;11r11d
+1;23rH	 75C811;9Hproxy_set_header Upgrade $http_upgrade;H^[10BH2C[10B2;11r11d
+1;23rH	 75C911;9Hproxy_set_header Connection "upgrade";H^[10BH2C[10B2;11r11d
+1;23rH	 74C4011;9Hproxy_set_header X-Frappe-Site-Name $host;H^K10BH  22B11A^[11B11A2C[11B10AM	 75C923;9Hlocation ~ ^/protected/(.*) {11A^[11B11A2C[11B10AM   74C5023;17Hinternal;11A^[11B11A2C[11B10AM   75C123;17Htry_files /$host/$1 =404;11A^[11B11A2C[11B10AM   75C223;9H}11A^[11B11A2C[11B10AM	75C311B11A^[11B11A2C[11B10AM   75C423;9Hlocation /socket.io {11A^[11B11A2C[11B10AM   75C523;17Hproxy_http_version 1.1;11A^[11B11A2C[11B10AM   75C623;17Hproxy_set_header Upgrade $http_upgrade;11A^[11B11A2C[11B10AM   75C723;17Hproxy_set_header Connection "upgrade";11A^[11B11A2C[11B10AM   75C823;17Hproxy_set_header X-Frappe-Site-Name $host;11A^[11B11A2C[11B10AM   75C923;17Hproxy_set_header Origin $scheme://$http_host;11A^[11B11A2C[11B10AM	  74C6023;17Hproxy_set_header Host $host;11A^[11B11A2C[11B10AM	 75C111B11A^[11B11A2C[11B10AM	75C223;17Hproxy_pass http://frappe-bench-socketio-server;11A^[11B11A2C[11B10AM	 75C323;9H}11A^[11B11A2C[11B10AM   75C411B11A^[11B11A2C[11B10AM	  75C523;9Hlocation / {11A^[11B11A2C[11B10AM   75C611B11A^[11B11A2C[11B10AM   75C723;17Hrewrite ^(.+)/$ $1 permanent;11A^[11B11A2C[11B10AM   75C823;17Hrewrite ^(.+)/index\.html$ $1 permanent;11A^K11B11A  H^[10BH2C[10B2;11r11d
+1;23rH	 75C111;9Hproxy_set_header Origin $scheme://$http_host;H^[10BH2C[10B2;11r11d
+1;23rH	 75C211;9Hproxy_set_header Host $host;H^[10BH2C[10B2;11r11d
+1;23rH	 75C310BH^[10BH2C[10B2;11r11d
+1;23rH	 75C411;9Hproxy_pass http://frappe-bench-socketio-server;H^[10BH2C[10B2;11r11d
+1;23rH	 75C511;5H}H^[10BH2C[10B2;11r11d
+1;23rH	 75C610BH^[10BH2C[10B2;11r11d
+1;23rH	 75C711;5Hlocation / {H^[10BH2C[10B2;11r11d
+1;23rH	 75C811;9Hrewrite ^(.+)/$ $1 permanent;H^[10BH2C[10B2;11r11d
+1;23rH	 75C911;9Hrewrite ^(.+)/index\.html$ $1 permanent;H^[10BH2C[10B2;11r11d
+1;23rH	 74C5011;9Hrewrite ^(.+)\.html$ $1 permanent;H^[10BH2C[10B2;11r11d
+1;23rH	 75C110BH^[10BH2C[10B2;11r11d
+1;23rH	 75C211;9Hlocation ~* ^/files/.*.(htm|html|svg|xml) {H^[10BH2C[10B2;11r11d
+1;23rH	 75C311;13Hadd_header Content-disposition "attachment";H^[10BH2C[10B2;11r11d
+1;23rH	 75C411;13Htry_files /$host/public/$uri @webserver;H^[10BH2C[10B2;11r11d
+1;23rH	 75C511;9H}H^[10BH2C[10B2;11r11d
+1;23rH	 75C610BH^K10BH	 22B11A^[11B11A2C[11B10AM   75C923;17Hrewrite ^(.+)\.html$ $1 permanent;11A^[11B11A2C[11B10AM	74C7011B11A^[11B11A2C[11B10AM	75C123;17Hlocation ~* ^/files/.*.(htm|html|svg|xml) {11A^[11B11A2C[11B10AM   75C223;25Hadd_header Content-disposition "attachment";11A^[11B11A2C[11B10AM   75C323;25Htry_files /$host/public/$uri @webserver;11A^[11B11A2C[11B10AM   75C423;17H}11A^[11B11A2C[11B10AM	75C511B11A^[11B11A2C[11B10AM   75C623;17Htry_files /$host/public/$uri @webserver;11A^[11B11A2C[11B10AM	 75C723;9H}11A^[11B11A2C[11B10AM   75C811B11A^K11B11A  H^[10BH2C[10B2;11r11d
+1;23rH	 75C711;9Htry_files /$host/public/$uri @webserver;H^[10BH2C[10B2;11r11d
+1;23rH	 75C811;5H}H^[10BH2C[10B2;11r11d
+1;23rH	 75C910BH^[10BH2C[10B2;11r11d
+1;23rH	 74C6011;5Hlocation @webserver {H^[10BH2C[10B2;11r11d
+1;23rH	 75C111;9Hproxy_http_version 1.1;H^[10BH2C[10B2;11r11d
+1;23rH	 75C211;9Hproxy_set_header X-Forwarded-For $remote_addr;H^[10BH2C[10B2;11r11d
+1;23rH	 75C311;9Hproxy_set_header X-Forwarded-Proto $scheme;H^[10BH2C[10B2;11r11d
+1;23rH	 75C411;9Hproxy_set_header X-Frappe-Site-Name $host;H^[10BH2C[10B2;11r11d
+1;23rH	 75C511;9Hproxy_set_header Host $host;H^[10BH2C[10B2;11r11d
+1;23rH	 75C611;9Hproxy_set_header X-Use-X-Accel-Redirect True;H^K10BH	22B11A^[11B11A2C[11B10AM   75C923;9Hlocation @webserver {11A^[11B11A2C[11B10AM	 74C8023;17Hproxy_http_version 1.1;11A^[11B11A2C[11B10AM   75C123;17Hproxy_set_header X-Forwarded-For $remote_addr;11A^[11B11A2C[11B10AM   75C223;17Hproxy_set_header X-Forwarded-Proto $scheme;11A^[11B11A2C[11B10AM	75C323;17Hproxy_set_header X-Frappe-Site-Name $host;11A^[11B11A2C[11B10AM   75C423;17Hproxy_set_header Host $host;11A^[11B11A2C[11B10AM	  75C523;17Hproxy_set_header X-Use-X-Accel-Redirect True;11A^[11B11A2C[11B10AM	 75C623;17Hproxy_read_timeout 120;11A^[11B11A2C[11B10AM	  75C723;17Hproxy_redirect off;11A^[11B11A2C[11B10AM   75C811B11A^[11B11A2C[11B10AM   75C923;17Hproxy_pass  http://frappe-bench-frappe;11A^[11B11A2C[11B11A   75C810B10A^[10B10A2C[10B10A   75C79B9A^[9B9A2C[9B9A   75C68B8A^[8B8A2C[8B8A   75C57B7A^[7B7A2C[7B7A   75C46B6A^[6B6A2C[6B6A   75C35B5A^[5B5A2C[5B5A   75C2
+
+4A^[
+
+4A2C[
+
+4A   75C1
+
+3A^[
+
+3A2C[
+
+3A   75C0
+
+^[
+
+2C[
+
+   74C79
+^[
+2C[
+L   75C8
+^[
+2C[
+L   75C79G
+}^[
+2C[
+L   75C6
+63Dtry_files /$host/public/$uri @webserver;^[
+2C[
+   75C7
+
+^[
+
+2C[
+
+   75C8
+
+3A^[
+
+3A2C[
+
+3A   75C9
+
+4A^[
+
+4A2C[
+
+4A   74C805B5A^[5B5A2C[5B5A   75C16B6A^[6B6A2C[6B6A   75C27B7A^[7B7A2C[7B7A   75C38B8A^[8B8A2C[8B8A   75C49B9A^[9B9A2C[9B9A   75C510B10A^[10B10A2C[10B10A   75C611B11A^[11B11A2C[11B10AM   75C723;17Hproxy_redirect off;11A^[11B11A2C[11B10AM	75C811B11A^[11B11A2C[11B10AM   75C923;17Hproxy_pass  http://frappe-bench-frappe;11A^[11B11A2C[11B10AM	74C9023;9H}11A^[11B11A2C[11B10AM   75C111B11A^[11B11A2C[11B10AM	  75C223;9H# error pages11A^[11B11A2C[11B10AM	75C323;9Herror_page 502 /502.html;11A^[11B11A2C[11B10AM	  75C423;9Hlocation /502.html {11A^[11B11A2C[11B10AM   75C523;17Hroot /home/frappe/.local/lib/python3.11/site-packages/bench/config/templat11A^K11B11A	H^[10BH2C[10B2;11r11d
+1;23rH	 75C711;9Hproxy_read_timeout 120;H^[10BH2C[10B2;11r11d
+1;23rH	 75C811;9Hproxy_redirect off;H^[10BH2C[10B2;11r11d
+1;23rH	 75C910BH^[10BH2C[10B2;11r11d
+1;23rH	 74C7011;9Hproxy_pass http://frappe-bench-frappe;H^[10BH2C[10B2;11r11d
+1;23rH	 75C111;5H}H^[10BH2C[10B2;11r11d
+1;23rH	 75C210BH^[10BH2C[10B2;11r11d
+1;23rH	 75C311;5H# Error pagesH^[10BH2C[10B2;11r11d
+1;23rH	 75C411;5Herror_page 502 /502.html;H^[10BH2C[10B2;11r11d
+1;23rH	 75C511;5Hlocation /502.html {H^[10BH2C[10B2;11r11d
+1;23rH	 75C611;9Hroot /home/frappe/.local/lib/python3.11/site-packages/bench/config/templates;H^[10BH2C[10B2;11r11d
+1;23rH	 75C711;9Hinternal;H^[10BH2C[10B2;11r11d
+1;23rH	 75C811;5H}H^[10BH2C[10B2;11r11d
+1;23rH	 75C910BH^[10BH2C[10B2;11r11d
+1;23rH	 74C8011;5Haccess_log /var/log/nginx/access.log main;H^[10BH2C[10B2;11r11d
+1;23rH	 75C111;5Herror_log /var/log/nginx/error.log;H^[10BH2C[10B2;11r11d
+1;23rH	 75C210BH^K10BH	 22B11A^[11B11A2C[11B10AM   75C623;17Hinternal;11A^[11B11A2C[11B10AM   75C723;9H}11A^[11B11A2C[11B10AM	 75C811B11A^[11B11A2C[11B10AM	75C923;9Haccess_log  /var/log/nginx/access.log main;11A^[11B11A2C[11B10AM   74C10023;9Herror_log  /var/log/nginx/error.log;11A^[11B11A2C[11B10AM   76C111B11A^[11B11A2C[11B10AM	  76C223;9H# optimizations11A^[11B11A2C[11B10AM	  76C323;9Hsendfile on;11A^[11B11A2C[11B10AM   76C423;9Hkeepalive_timeout 15;11A^[11B11A2C[11B10AM   76C523;9Hclient_max_body_size 50m;11A^[11B11A2C[11B10AM   76C623;9Hclient_body_buffer_size 16K;11A^[11B11A2C[11B10AM   76C723;9Hclient_header_buffer_size 1k;11A^[11B11A2C[11B10AM	  76C811B11A^[11B11A2C[11B10AM	 76C923;9H# enable gzip compresion11A^K11B11A  H^[10BH2C[10B2;11r11d
+1;23rH	 75C311;5H# OptimizationsH^[10BH2C[10B2;11r11d
+1;23rH	 75C411;5Hsendfile on;H^[10BH2C[10B2;11r11d
+1;23rH	 75C511;5Hkeepalive_timeout 15;H^[10BH2C[10B2;11r11d
+1;23rH	 75C611;5Hclient_max_body_size 50m;H^[10BH2C[10B2;11r11d
+1;23rH	 75C711;5Hclient_body_buffer_size 16K;H^[10BH2C[10B2;11r11d
+1;23rH	 75C811;5Hclient_header_buffer_size 1k;H^[10BH2C[10B2;11r11d
+1;23rH	 75C910BH^[10BH2C[10B2;11r11d
+1;23rH	 74C9011;5H# Enable gzip compressionH^[10BH2C[10B2;11r11d
+1;23rH	 75C111;5Hgzip on;H^[10BH2C[10B2;11r11d
+1;23rH	 75C211;5Hgzip_http_version 1.1;H^[10BH2C[10B2;11r11d
+1;23rH	 75C311;5Hgzip_comp_level 5;H^[10BH2C[10B2;11r11d
+1;23rH	 75C411;5Hgzip_min_length 256;H^[10BH2C[10B2;11r11d
+1;23rH	 75C511;5Hgzip_proxied any;H^[10BH2C[10B2;11r11d
+1;23rH	 75C611;5Hgzip_vary on;H^[10BH2C[10B2;11r11d
+1;23rH	 75C711;5Hgzip_typesH^[10BH2C[10B2;11r11d
+1;23rH	 75C811;9Happlication/atom+xmlH^[10BH2C[10B2;11r11d
+1;23rH	 75C911;9Happlication/javascriptH^K10BH	 22B11A^[11B11A2C[11B10AM   75C1023;9H# based on https://mattstauffer.co/blog/enabling-gzip-on-nginx-servers-including-l11A^[11B11A2C[11B10AM	76C123;9Hgzip on;11A^[11B11A2C[11B10AM	 76C223;9Hgzip_http_version 1.1;11A^[11B11A2C[11B10AM	76C323;9Hgzip_comp_level 5;11A^[11B11A2C[11B10AM   76C423;9Hgzip_min_length 256;11A^[11B11A2C[11B10AM	76C523;9Hgzip_proxied any;11A^[11B11A2C[11B10AM	  76C623;9Hgzip_vary on;11A^[11B11A2C[11B10AM	76C723;9Hgzip_types11A^[11B11A2C[11B10AM   76C823;17Happlication/atom+xml11A^[11B11A2C[11B10AM	 76C923;17Happlication/javascript11A^[11B11A2C[11B10AM	 75C2023;17Happlication/json11A^[11B11A2C[11B10AM   76C123;17Happlication/rss+xml11A^[11B11A2C[11B10AM	 76C223;17Happlication/vnd.ms-fontobject11A^[11B11A2C[11B10AM	76C323;17Happlication/x-font-ttf11A^[11B11A2C[11B10AM	76C423;17Happlication/font-woff11A^[11B11A2C[11B10AM   76C523;17Happlication/x-web-app-manifest+json11A^[11B11A2C[11B10AM   76C623;17Happlication/xhtml+xml11A^[11B11A2C[11B10AM   76C723;17Happlication/xml11A^K11B11A	 H^[10BH2C[10B2;11r11d
+1;23rH	 74C10011;9Happlication/jsonH^[10BH2C[10B2;11r11d
+1;23rH	 76C111;9Happlication/rss+xmlH^[10BH2C[10B2;11r11d
+1;23rH	 76C211;9Happlication/vnd.ms-fontobjectH^[10BH2C[10B2;11r11d
+1;23rH	 76C311;9Happlication/x-font-ttfH^[10BH2C[10B2;11r11d
+1;23rH	 76C411;9Happlication/font-woffH^[10BH2C[10B2;11r11d
+1;23rH	 76C511;9Happlication/x-web-app-manifest+jsonH^[10BH2C[10B2;11r11d
+1;23rH	 76C611;9Happlication/xhtml+xmlH^[10BH2C[10B2;11r11d
+1;23rH	 76C711;9Happlication/xmlH^[10BH2C[10B2;11r11d
+1;23rH	 76C811;9Hfont/opentypeH^[10BH2C[10B2;11r11d
+1;23rH	 76C911;9Himage/svg+xmlH^[10BH2C[10B2;11r11d
+1;23rH	 75C1011;9Himage/x-iconH^[10BH2C[10B2;11r11d
+1;23rH	 76C111;9Htext/cssH^[10BH2C[10B2;11r11d
+1;23rH	 76C211;9Htext/plainH^[10BH2C[10B2;11r11d
+1;23rH	 76C311;9Htext/x-component;H^[10BH2C[10B2;11r11d
+1;23rH	 76C410BH^[10BH2C[10B2;11r11d
+1;23rH	 76C511;5Hlisten [::]:443 ssl ipv6only=on; # managed by CertbotH^[10BH2C[10B2;11r11d
+1;23rH	 76C611;5Hlisten 443 ssl; # managed by CertbotH^K10BH  22B11A^[11B11A2C[11B10AM	  76C823;17Hfont/opentype11A^[11B11A2C[11B10AM	 76C923;17Himage/svg+xml11A^[11B11A2C[11B10AM	75C3023;17Himage/x-icon11A^[11B11A2C[11B10AM   76C123;17Htext/css11A^[11B11A2C[11B10AM	 76C223;17Htext/plain11A^[11B11A2C[11B10AM   76C323;17Htext/x-component11A^[11B11A2C[11B10AM   76C423;17H;11A^[11B11A2C[11B10AM	  76C523;17H# text/html is always compressed by HttpGzipModule11A^[11B11A2C[11B10AM   76C611B11A^[11B11A2C[11B10AM   76C711B11A^[11B11A2C[11B10AM   76C811B11A^[11B11A2C[11B10AM   76C911B11A^[11B11A2C[11B10AM	  75C4011B11A^[11B11A2C[11B10AM	  76C111B11A^[11B11A2C[11B10AM	 76C211B11A^[11B11A2C[11B11A   11B11A^[11B11A2C[11B11A	 11B11A^[11B11A2C[11B11A   11B11A^[11B11A2C[11B11A   11B11A^[11B11A2C[11B11A   11B11A^[11B11A2C[11B11A	 11B11A^[11B11A2C[11B11A   11B11A^[11B11A2C[11B11A   11B11A^[11B11A2C[11B11A   11B11A^[11B11A2C[11B11A	 11B11A^[11B11A2C[11B11A   11B11A^[11B11A2C[11B11A   11B11A^K11B11A  H^[10BH2C[10B2;11r11d
+1;23rH	 76C711;5Hssl_certificate /etc/letsencrypt/live/hsrai.ukiericoncretecongress.com/fullchain.pem;H^[10BH2C[10B2;11r11d
+1;23rH	 76C811;5Hssl_certificate_key /etc/letsencrypt/live/hsrai.ukiericoncretecongress.com/privkey.pemH^[10BH2C[10B2;11r11d
+1;23rH	 76C911;5Hinclude /etc/letsencrypt/options-ssl-nginx.conf; # managed by CertbotH^[10BH2C[10B2;11r11d
+1;23rH	 75C2011;5Hssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by CertbotH^[10BH2C[10B2;11r11d
+1;23rH	 76C110BH^[10BH2C[10B2;11r11d
+1;23rH	 76C210BH^[10BH2C[10B2;11r11d
+1;23rH	 76C310BH^[10BH2C[10B2;11r11d
+1;23rH	 76C410BH^[10BH2C[10BH	 76C39BH^[9BH2C[9BH   76C28BH^[8BH2C[8BH   76C17BH^[7BH2C[7BH	76C06BH^[6BH2C[6BH   75C195BH^[5BH2C[5BH   76C8
+
+H^[
+
+H2C[
+
+H   76C7
+
+H^[
+
+H2C[
+
+H   76C6
+
+H^[
+
+H2C[
+
+H   76C5
+^[
+2C[
+2;11rH
+1;23rH	 76C4
+^[
+2C[
+2;11rH
+1;23rH	 76C39G
+text/x-component;^[
+2C[
+   76C4
+
+H^[
+
+H2C[
+
+H   76C5
+
+H^[
+
+H2C[
+
+H   76C6
+
+H^[
+
+H2C[
+
+H   76C75BH^[5BH2C[5BH	 76C86BH^[6BH2C[6BH   76C97BH^[7BH2C[7BH   75C208BH^[8BH2C[8BH	 76C19BH^[9BH2C[9BH   76C210BH^[10BH2C[10B2;11r11d
+1;23rH	 76C310BH^[10BH2C[10B2;11r11d
+1;23rH	 76C410BH^[10BH2C[10B2;11r11d
+1;23rH	 76C510B# HTTPS configuration will be added by CertbotH^[10BH2C[10B2;11r11d
+1;23rH	 76C610BH^[10BH2C[10B2;11r11d
+1;23rH	 76C710Bserver {H^[10BH2C[10B2;11r11d
+1;23rH	 76C811;5Hif ($host = exp.gndec.ac.in) {H^[10BH2C[10B2;11r11d
+1;23rH	 76C911;9Hreturn 301 https://$host$request_uri;H^[10BH2C[10B2;11r11d
+1;23rH	 75C3011;5H} # managed by CertbotH^[10BH2C[10B2;11r11d
+1;23rH	 76C110BH^[10BH2C[10B2;11r11d
+1;23rH	 76C210BH^[10BH2C[10B2;11r11d
+1;23rH	 76C311;5Hif ($host = hsrai.ukiericoncretecongress.com) {H^[10BH2C[10B2;11r11d
+1;23rH	 76C411;9Hreturn 301 https://$host$request_uri;H^[10BH2C[10B2;11r11d
+1;23rH	 76C511;5H} # managed by CertbotH^[10BH2C[10B2;11r11d
+1;23rH	 76C610BH^[10BH2C[10B2;11r11d
+1;23rH	 76C710BH^[10BH2C[10B2;11r11d
+1;23rH	 76C811;5Hlisten 80;H^[10BH2C[10B2;11r11d
+1;23rH	 76C911;5Hlisten [::]:80;H^[10BH2C[10B2;11r11d
+1;23rH	 75C4010BH^[10BH2C[10B2;11r11d
+1;23rH	 76C111;5Hserver_name hsrai.ukiericoncretecongress.com exp.gndec.ac.in;H^[10BH2C[10B2;11r11d
+1;23rH	 76C211;5Hreturn 404; # managed by CertbotH^[10BH2C[10B2;11r11d
+1;23rH	 76C310BH^[10BH2C[10B2;11r11d
+1;23rH	 76C410BH^[10BH2C[10B2;11r11d
+1;23rH	 76C510BH^[10BH2C[10B2;11r11d
+1;23rH	 76C610BH^[10BH2C[10B2;11r11d
+1;23rH	 76C710BH^[10BH2C[10BH	 10BH^[10BH2C[10BH   10BH^[10BH2C[10BH	 10BH^[10BH2C[10BH   76C69BH^[9BH2C[9BH	  76C58BH^[8BH2C[8BH   76C47BH^[7BH2C[7BH   76C36BH^[6BH2C[6BH	 76C25BH^[5BH2C[5BH   76C1
+
+H^[
+
+H2C[
+
+H   76C0
+
+H^[
+
+H2C[
+
+H   75C39
+
+H^[
+
+H2C[
+
+H   76C8
+^[
+2C[
+2;11rH
+1;23rH	 76C7
+^[
+2C[
+2;11rH
+1;23rH	 76C6
+^[
+2C[
+2;11rH
+1;23rH	 76C55G
+} # managed by Certbot^[
+2C[
+2;11rH
+1;23rH	 76C49G
+return 301 https://$host$request_uri;^[
+2C[
+2;11rH
+1;23rH	 76C35G
+if ($host = hsrai.ukiericoncretecongress.com) {^[
+2C[
+2;11rH
+1;23rH	 76C2
+^[
+2C[
+2;11rH
+1;23rH	 76C1
+^[
+2C[
+2;11rH
+1;23rH	 76C05G
+} # managed by Certbot^[
+2C[
+2;11rH
+1;23rH	 75C299G
+return 301 https://$host$request_uri;^[
+2C[
+2;11rH
+1;23rH	 76C85G
+if ($host = exp.gndec.ac.in) {^[
+2C[
+2;11rH
+1;23rH	 76C7
+server {^[
+2C[
+2;11rH
+1;23rH	 76C6
+^[
+2C[
+2;11rH
+1;23rH	 76C5
+# HTTPS configuration will be added by Certbot^[
+2C[
+2;11rH
+1;23rH	 76C4
+^[
+2C[
+2;11rH
+1;23rH	 76C3
+^[
+2C[
+2;11rH
+1;23rH	 76C2
+^[
+2C[
+2;11rH
+1;23rH	 76C1
+^[
+2C[
+2;11rH
+1;23rH	 76C05G
+ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot^[
+2C[
+2;11rH
+1;23rH	 75C195G
+include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot^[
+2C[
+2;11rH
+1;23rH	 76C85G
+ssl_certificate_key /etc/letsencrypt/live/hsrai.ukiericoncretecongress.com/privkey.pem^[
+2C[
+2;11rH
+1;23rH	 76C75G
+ssl_certificate /etc/letsencrypt/live/hsrai.ukiericoncretecongress.com/fullchain.pem;^[
+2C[
+2;11rH
+1;23rH	 76C65G
+listen 443 ssl; # managed by Certbot^[
+2C[
+2;11rH
+1;23rH	 76C55G
+listen [::]:443 ssl ipv6only=on; # managed by Certbot^[
+2C[
+2;11rH
+1;23rH	 76C4
+21B11S10A
+
+File /home/frappe/Trust/Backup/frappe-bench.conf1 not changed so no update needed11A11B
+File /home/frappe/Trust/Backup/frappe-bench.conf2 not changed so no update needed
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ (reverse-i-search)`s26Pudo'n':s2Pfrappe@cc:~/frappe-bench$nCCCCCCCCCCCCC
+[sudo] password for frappe:
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ (reverse-i-search)`e': joe  ~/Trust/Backup/frappe-bCCCCCCCCCCCCCCCCCCCCr': bench new-site arce.ukiCCCCCCCCCCCCCCCCCCCCCo': curl -X POST https://hsrai.ukiericoncretecongress.com/api/method/library_management_system.api.webhook_handler -H "Content-Type: application/json" -d '{"event": "test_event"}'CC2Pe':CbenchC--siteChsrai.ukiericoncretecongress.com scheduler enable
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCn': bench --site hsrai.ukiericoncretecongress.com schedul1Pfrappe@cc:~/frappe-bench$ bench --site hsra11111P1@a1@r1@c1@engress.com schedulCCCCCCCCC
+Scheduler is enabled for site arce.ukiericoncretecongress.com
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ (reverse-i-search)`n': bench --site arce.ukiericoncretecongress.com scheduler eCCCCCCCCCCCCCCCCCCCCx're':ssudosservicenngi1Pfrappe@cc:~/frappe-bench$ sudo service nginx reload
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ (reverse-i-search)`c1@er':ssudoscertbotn--nginxd-d hsrai.ukiericoncretecongress.com -d exp.gndec.ac.inCCCCCCCCCCCCCCCCCCCCfrappe@cc:~/frappe-bench$ sudo certbot --nginx -d hsrai.ukiericoncretecongress.com -d exp.gndec.ac.infrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCd hsrai.ukiericoncretecongress.com -d exp.gn1Pdec.ac.infrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCC hsrai.ukiericoncretecongress.com -d exp.gnd1Pec.ac.infrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCChsrai.ukiericoncretecongress.com -d exp.gnde1Pc.ac.infrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCsrai.ukiericoncretecongress.com -d exp.gndec1P.ac.infrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCrai.ukiericoncretecongress.com -d exp.gndec.1Pac.infrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCai.ukiericoncretecongress.com -d exp.gndec.a1Pc.infrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCi.ukiericoncretecongress.com -d exp.gndec.ac1P.infrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCC.ukiericoncretecongress.com -d exp.gndec.ac.1Pinfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCukiericoncretecongress.com -d exp.gndec.ac.i1Pnfrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCkiericoncretecongress.com -d exp.gndec.ac.infrappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCiericoncretecongress.com -d exp.gndec.ac.in CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC1P
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1PC11P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1P1Pn
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+
+Which names would you like to activate HTTPS for?
+We recommend selecting either all domains, or all domains in a VirtualHost/server block.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+1: exp.gndec.ac.in
+2: arce.ukiericoncretecongress.com
+3: gd.ukiericoncretecongress.com
+4: hsrai.ukiericoncretecongress.com
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Select the appropriate numbers separated by commas and/or spaces, or leave input
+blank to select all options shown (Enter 'c' to cancel): 1 2 4
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+You have an existing certificate that contains a portion of the domains you
+requested (ref: /etc/letsencrypt/renewal/hsrai.ukiericoncretecongress.com.conf)
+
+It contains these names: hsrai.ukiericoncretecongress.com, exp.gndec.ac.in
+
+You requested these names for the new certificate: exp.gndec.ac.in,
+arce.ukiericoncretecongress.com, hsrai.ukiericoncretecongress.com.
+
+Do you want to expand and replace this existing certificate with the new
+certificate?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(E)xpand/(C)ancel: e
+Renewing an existing certificate for exp.gndec.ac.in and 2 more domains
+
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/hsrai.ukiericoncretecongress.com/fullchain.pem
+Key is saved at:	 /etc/letsencrypt/live/hsrai.ukiericoncretecongress.com/privkey.pem
+This certificate expires on 2024-12-07.
+These files will be updated when the certificate renews.
+Certbot has set up a scheduled task to automatically renew this certificate in the background.
+
+Deploying certificate
+Successfully deployed certificate for exp.gndec.ac.in to /etc/nginx/conf.d/frappe-bench.conf
+Successfully deployed certificate for arce.ukiericoncretecongress.com to /etc/nginx/conf.d/frappe-bench.conf
+Successfully deployed certificate for hsrai.ukiericoncretecongress.com to /etc/nginx/conf.d/frappe-bench.conf
+Your existing certificate has been successfully renewed, and the new certificate has been installed.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+If you like Certbot, please consider supporting our work by:
+ * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+ * Donating to EFF:		       https://eff.org/donate-le
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ (reverse-i-search)`22@cp':scpo/etc/nginx/conf.d/frappe-bench.conf ~/Trust/Backup/frappe-bench.conf2CCCCCCCCCCCCCCCCCCfrappe@cc:~/frappe-bench$ cp /etc/nginx/conf.d/frappe-bench.conf ~/Trust/Backup/frappe-bench.conf2frappe@cc:~/frappe-bench$ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCC3
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ (reverse-i-search)`'': cp /etc/nginx/conf.d/frappe-bench.conf ~/Trust/Backup/frappe-bench.conf3CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC45P-': sudo certbot --nginx
+CCCCCCCCCCCCCCCCCCCCC7Pt':CsudoCnginxfrappe@cc:~/frappe-bench$ sudo nginx -t
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$ (reverse-i-search)`r': cp /etc/nginx/conf.d/frappe-bench.conf ~/Trust/Backup/frappe-bench.conf3CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC41Pe': sudo service nginx reload
+CCCCCCCCCCCCCCCCCCCCClo':ssudosservicennginxrfrappe@cc:~/frappe-bench$ sudo service nginx reload
+2024-09-08 15:25:21 #
+frappe@cc:~/frappe-bench$
+exit
+
+Script done on 2024-09-08 18:47:16+05:30 [COMMAND_EXIT_CODE="0"]
